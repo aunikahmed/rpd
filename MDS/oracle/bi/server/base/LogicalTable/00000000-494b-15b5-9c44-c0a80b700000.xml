@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000000-494b-15b5-9c44-c0a80b700000" name="FACT_RESPIRATORY_TREATMENT_ALIAS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-f736-15b4-9c44-c0a80b700000.xml#m00000000-f736-15b4-9c44-c0a80b700000">
+<LogicalColumn mdsid="m00000003-494b-15b5-9c44-c0a80b700000" name="CLIENT_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:188431456809283">
+<Expr mdsid="m00000001-01f4-0000-de05-fb5400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."CLIENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-de05-fb5400000000-m40000001-491e-15b5-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m40000001-491e-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000004-494b-15b5-9c44-c0a80b700000" name="ID" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:239821458799576" isDefault="true">
+<Expr mdsid="m00000002-01f4-0000-f248-aa6b00000000" name="Expr">
+<ExprText><![CDATA[ COUNT(DISTINCT "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT(DISTINCT "HEALTH_TRACKING_BMM"."FACT_RESPIRATORY_TREATMENT_ALIAS"."ID")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-f248-aa6b00000000-m00000004-494b-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-494b-15b5-9c44-c0a80b700000.xml#m00000004-494b-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:188441456809283">
+<Expr mdsid="m00000003-01f4-0000-82d1-ee9d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-82d1-ee9d00000000-m40000002-491e-15b5-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m40000002-491e-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000005-494b-15b5-9c44-c0a80b700000" name="PGM_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:188451456809283">
+<Expr mdsid="m00000004-01f4-0000-eca1-4c5300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."PGM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-eca1-4c5300000000-m40000003-491e-15b5-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m40000003-491e-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000006-494b-15b5-9c44-c0a80b700000" name="PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:188461456809283">
+<Expr mdsid="m00000005-01f4-0000-4a27-7f3a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-4a27-7f3a00000000-m40000004-491e-15b5-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m40000004-491e-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000007-494b-15b5-9c44-c0a80b700000" name="TIME_KEY" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:188471456809283">
+<Expr mdsid="m00000006-01f4-0000-896a-8a8900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."TIME_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-896a-8a8900000000-m40000005-491e-15b5-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m40000005-491e-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000008-494b-15b5-9c44-c0a80b700000" name="UPDATE_COUNT" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:189311456809668" isDefault="true">
+<Expr mdsid="m00000007-01f4-0000-3543-c4b400000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("HEALTH_TRACKING_BMM"."FACT_RESPIRATORY_TREATMENT_ALIAS"."UPDATE_COUNT")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-3543-c4b400000000-m00000008-494b-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-494b-15b5-9c44-c0a80b700000.xml#m00000008-494b-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:188481456809283">
+<Expr mdsid="m00000008-01f4-0000-df1b-aa1200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."UPDATE_COUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-df1b-aa1200000000-m40000006-491e-15b5-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m40000006-491e-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000004-e047-15bc-973b-c0a80b700000" name="CLIENT_UNIQUE_ID" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:239451458798943" isDefault="true">
+<Expr mdsid="m00000009-01f4-0000-6285-2a5a00000000" name="Expr">
+<ExprText><![CDATA[ COUNT(DISTINCT "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT(DISTINCT "HEALTH_TRACKING_BMM"."FACT_RESPIRATORY_TREATMENT_ALIAS"."CLIENT_UNIQUE_ID")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-6285-2a5a00000000-m40000004-e047-15bc-973b-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-494b-15b5-9c44-c0a80b700000.xml#m40000004-e047-15bc-973b-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:239421458798943">
+<Expr mdsid="m0000000a-01f4-0000-556e-5c4900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."CLIENT_UNIQUE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-556e-5c4900000000-m00000001-e02a-15bc-973b-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m00000001-e02a-15bc-973b-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000005-e047-15bc-973b-c0a80b700000" name="OVERSIGHT_PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:239431458798943">
+<Expr mdsid="m0000000b-01f4-0000-d73f-990500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_RESPIRATORY_TREATMENT_ALIAS"."OVERSIGHT_PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-d73f-990500000000-m00000000-e02a-15bc-973b-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-491e-15b5-9c44-c0a80b700000.xml#m00000000-e02a-15bc-973b-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000000-494b-15b5-9c44-c0a80b700000-m00000002-494b-15b5-9c44-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000002-494b-15b5-9c44-c0a80b700000.xml#m00000002-494b-15b5-9c44-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

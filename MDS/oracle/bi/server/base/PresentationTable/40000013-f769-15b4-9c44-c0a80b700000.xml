@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000013-f769-15b4-9c44-c0a80b700000" name="TIME_DIM" iconIndex="94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000011-f769-15b4-9c44-c0a80b700000.xml#m40000011-f769-15b4-9c44-c0a80b700000">
+<PresentationColumn mdsid="m00000063-f769-15b4-9c44-c0a80b700000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000048-f73d-15b4-9c44-c0a80b700000.xml#m0000004c-f73d-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000062-f769-15b4-9c44-c0a80b700000" name="BEGIN_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000048-f73d-15b4-9c44-c0a80b700000.xml#m0000004b-f73d-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000064-f769-15b4-9c44-c0a80b700000" name="MONTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000048-f73d-15b4-9c44-c0a80b700000.xml#m0000004d-f73d-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000065-f769-15b4-9c44-c0a80b700000" name="MONTH_INT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000048-f73d-15b4-9c44-c0a80b700000.xml#m0000004e-f73d-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000066-f769-15b4-9c44-c0a80b700000" name="QUARTER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000048-f73d-15b4-9c44-c0a80b700000.xml#m0000004f-f73d-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000067-f769-15b4-9c44-c0a80b700000" name="YEAR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000048-f73d-15b4-9c44-c0a80b700000.xml#m00000050-f73d-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000068-f769-15b4-9c44-c0a80b700000" name="YEAR_INT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000048-f73d-15b4-9c44-c0a80b700000.xml#m00000051-f73d-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

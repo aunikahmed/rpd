@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000023-ba66-15ad-9e4d-c0a80b700000" name="CLIENT_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/8000001e-ba66-15ad-9e4d-c0a80b700000.xml#m8000001e-ba66-15ad-9e4d-c0a80b700000">
+<PresentationColumn mdsid="m8000001d-ba66-15ad-9e4d-c0a80b700000" name="ETHNICITY_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m0000000c-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000000-ba66-15ad-9e4d-c0a80b700000" name="EYE_COLOR_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m0000000d-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-ba66-15ad-9e4d-c0a80b700000" name="FIRST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m0000000e-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000002-ba66-15ad-9e4d-c0a80b700000" name="GENDER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m0000000f-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000003-ba66-15ad-9e4d-c0a80b700000" name="HAIR_COLOR_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m00000010-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000004-ba66-15ad-9e4d-c0a80b700000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m00000011-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000005-ba66-15ad-9e4d-c0a80b700000" name="LANGUAGE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m00000012-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000006-ba66-15ad-9e4d-c0a80b700000" name="LAST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m00000013-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000007-ba66-15ad-9e4d-c0a80b700000" name="RACE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m00000014-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000008-ba66-15ad-9e4d-c0a80b700000" name="RELIGION_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m00000015-c6c0-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-0eec-15ae-9c58-c0a80b700000" name="IND_INTAKE_TO_PGM_ADMISSION_INTERVAL_DAY" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc0000000-0ee9-15ae-9c58-c0a80b700000">
+<Alias name="individual_intake_to_pgm_admission_interval_day"/>
+<Alias name="INTK2PGM_ADMSN_INTRVL_DAY"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m40000001-196d-15ae-9c58-c0a80b700000" name="CITIZENSHIP_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc000000c-1967-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000003-196d-15ae-9c58-c0a80b700000" name="COMMUNICATION_MODALITY_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc000000d-1967-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-196d-15ae-9c58-c0a80b700000" name="ID_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc000000e-1967-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000007-196d-15ae-9c58-c0a80b700000" name="MOBILITY_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc000000f-1967-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000000-196d-15ae-9c58-c0a80b700000" name="SUPERVISION_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc0000010-1967-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000002-196d-15ae-9c58-c0a80b700000" name="WRITTEN_LANGUAGE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc0000011-1967-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-19ab-15ae-9c58-c0a80b700000" name="STATUS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m00000002-19aa-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-1a08-15ae-9c58-c0a80b700000" name="INDIVIDUAL_STATUS_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m40000000-1a07-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-6ace-15ae-a80b-c0a80b700000" name="ID_TYPE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m40000003-6acb-15ae-a80b-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-b0dc-15ae-bb1f-c0a80b700000" name="INTK2PGM_ADMSN_INTERVAL_RANGE_INT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m80000000-b097-15ae-bb1f-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-b0fe-15ae-bb1f-c0a80b700000" name="INTK2PGM_ADMSN_INTERVAL_RANGE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m80000001-61c8-15ae-8f39-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000000-b38e-15ae-bb1f-c0a80b700000" name="BP_CITY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc0000004-b38b-15ae-bb1f-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000002-b38e-15ae-bb1f-c0a80b700000" name="RA_CITY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#mc0000005-b38b-15ae-bb1f-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000000-064d-15af-bb1f-c0a80b700000" name="RA_COUNTRY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m80000000-0648-15af-bb1f-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000000-064d-15af-bb1f-c0a80b700000" name="RA_COUNTY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m80000001-0648-15af-bb1f-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000000-064e-15af-bb1f-c0a80b700000" name="RA_STATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000009-c6c0-15ac-9e4d-c0a80b700000.xml#m80000002-0648-15af-bb1f-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

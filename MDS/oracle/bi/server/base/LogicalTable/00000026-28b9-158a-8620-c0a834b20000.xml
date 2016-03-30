@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000026-28b9-158a-8620-c0a834b20000" name="CLIENT_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-28b5-158a-8620-c0a834b20000.xml#m80000000-28b5-158a-8620-c0a834b20000">
+<LogicalColumn mdsid="m00000063-28b9-158a-8620-c0a834b20000" name="ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:57921445503834">
+<Expr mdsid="m00000001-01f4-0000-00aa-39a900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-00aa-39a900000000-m4000003b-2d61-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m4000003b-2d61-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m40000044-28b9-158a-8620-c0a834b20000" name="CLIENT_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000044-28b9-158a-8620-c0a834b20000-m00000063-28b9-158a-8620-c0a834b20000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000026-28b9-158a-8620-c0a834b20000.xml#m00000063-28b9-158a-8620-c0a834b20000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000026-28b9-158a-8620-c0a834b20000-m00000028-28b9-158a-8620-c0a834b20000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000028-28b9-158a-8620-c0a834b20000.xml#m00000028-28b9-158a-8620-c0a834b20000"/>
+</RefTableSources>
+</LogicalTable>

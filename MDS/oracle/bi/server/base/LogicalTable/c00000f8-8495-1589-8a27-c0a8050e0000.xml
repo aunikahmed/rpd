@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mc00000f8-8495-1589-8a27-c0a8050e0000" name="GER_EVENT_INJURY_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-2e78-1589-806e-c0a8050e0000.xml#m80000000-2e78-1589-806e-c0a8050e0000">
+<LogicalColumn mdsid="mc0000100-8495-1589-8a27-c0a8050e0000" name="ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:34971445335639">
+<Expr mdsid="m00000001-01f4-0000-8426-2a1e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-8426-2a1e00000000-m40000006-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000006-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000106-8495-1589-8a27-c0a8050e0000" name="INJURY_CAUSE_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35031445335639">
+<Expr mdsid="m00000002-01f4-0000-fc5f-5dec00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."INJURY_CAUSE_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-fc5f-5dec00000000-m4000000c-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m4000000c-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000010e-8495-1589-8a27-c0a8050e0000" name="INJURY_SEVERITY_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35111445335639">
+<Expr mdsid="m00000003-01f4-0000-6c21-e52900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."INJURY_SEVERITY_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-6c21-e52900000000-m40000014-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000014-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000010f-8495-1589-8a27-c0a8050e0000" name="INJURY_TIME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35121445335639">
+<Expr mdsid="m00000004-01f4-0000-cefb-f42300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."INJURY_TIME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-cefb-f42300000000-m40000015-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000015-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000112-8495-1589-8a27-c0a8050e0000" name="INJURY_TYPE_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35151445335639">
+<Expr mdsid="m00000005-01f4-0000-d07c-ab1e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."INJURY_TYPE_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-d07c-ab1e00000000-m40000018-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000018-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000116-8495-1589-8a27-c0a8050e0000" name="LOCATION_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35191445335639">
+<Expr mdsid="m00000006-01f4-0000-5575-da4c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."LOCATION_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-5575-da4c00000000-m4000001c-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m4000001c-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000011b-8495-1589-8a27-c0a8050e0000" name="TREATMENT_BY" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35241445335639">
+<Expr mdsid="m00000007-01f4-0000-b4e3-95b600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."TREATMENT_BY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-b4e3-95b600000000-m40000021-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000021-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000011f-8495-1589-8a27-c0a8050e0000" name="TREATMENT_TIME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35281445335639">
+<Expr mdsid="m00000008-01f4-0000-51ea-b3d100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_INJURY_DIM"."TREATMENT_TIME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-51ea-b3d100000000-m40000025-2bf0-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000025-2bf0-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mc0000120-8495-1589-8a27-c0a8050e0000" name="GER_EVENT_INJURY_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mc0000120-8495-1589-8a27-c0a8050e0000-mc0000100-8495-1589-8a27-c0a8050e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00000f8-8495-1589-8a27-c0a8050e0000.xml#mc0000100-8495-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mc00000f8-8495-1589-8a27-c0a8050e0000-mc00000fa-8495-1589-8a27-c0a8050e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c00000fa-8495-1589-8a27-c0a8050e0000.xml#mc00000fa-8495-1589-8a27-c0a8050e0000"/>
+</RefTableSources>
+</LogicalTable>

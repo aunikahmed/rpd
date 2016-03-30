@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc000002d-b418-15ad-9e4d-c0a80b700000" name="CLIENT_COUNT_BY_PGM_FACT" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c000002b-b418-15ad-9e4d-c0a80b700000.xml#mc000002b-b418-15ad-9e4d-c0a80b700000">
+<Alias name="CLIENT_COUNT_BY_PGM_FACT_ALIAS"/>
+<PresentationColumn mdsid="mc000001e-b418-15ad-9e4d-c0a80b700000" name="PERIOD_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b413-15ad-9e4d-c0a80b700000.xml#mc0000003-b413-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000001f-b418-15ad-9e4d-c0a80b700000" name="PGM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b413-15ad-9e4d-c0a80b700000.xml#mc0000004-b413-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000020-b418-15ad-9e4d-c0a80b700000" name="PROV_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b413-15ad-9e4d-c0a80b700000.xml#mc0000005-b413-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000021-b418-15ad-9e4d-c0a80b700000" name="TIME_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b413-15ad-9e4d-c0a80b700000.xml#mc0000006-b413-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000022-b418-15ad-9e4d-c0a80b700000" name="TOTAL_CLIENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-b413-15ad-9e4d-c0a80b700000.xml#mc0000007-b413-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

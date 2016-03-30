@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000000-f83c-15b4-9c44-c0a80b700000" name="HLTH_VACCINE_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000007-f7d7-15b4-9c44-c0a80b700000.xml#m40000007-f7d7-15b4-9c44-c0a80b700000">
+<PhysicalColumn mdsid="m00000001-f83c-15b4-9c44-c0a80b700000" name="GENERIC_NAME" dataType="VARCHAR" precision="275" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000007-f7d7-15b4-9c44-c0a80b700000.xml#m40000008-f7d7-15b4-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-f83c-15b4-9c44-c0a80b700000" name="ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000007-f7d7-15b4-9c44-c0a80b700000.xml#m40000009-f7d7-15b4-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000003-f83c-15b4-9c44-c0a80b700000" name="VACCINE_CODE" dataType="VARCHAR" precision="30" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000007-f7d7-15b4-9c44-c0a80b700000.xml#m4000000a-f7d7-15b4-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m40000000-f86a-15b4-9c44-c0a80b700000" name="HLTH_VACCINE_DIM_Key">
+<RefColumns>
+<RefColumn refId="m40000000-f86a-15b4-9c44-c0a80b700000-m00000002-f83c-15b4-9c44-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-f83c-15b4-9c44-c0a80b700000.xml#m00000002-f83c-15b4-9c44-c0a80b700000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

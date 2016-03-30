@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m00000017-5796-15b5-bf69-c0a80b700000" name="HLTH_MEDHISTORY_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000011-f769-15b4-9c44-c0a80b700000.xml#m40000011-f769-15b4-9c44-c0a80b700000">
+<PresentationColumn mdsid="m00000012-5796-15b5-bf69-c0a80b700000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m8000001f-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000014-5796-15b5-bf69-c0a80b700000" name="AGE_AT_EVENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m80000019-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000015-5796-15b5-bf69-c0a80b700000" name="AGE_RANGE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m8000001a-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000016-5796-15b5-bf69-c0a80b700000" name="BEGIN_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m8000001b-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000000f-5796-15b5-bf69-c0a80b700000" name="EFFECTIVENESS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m8000001c-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000010-5796-15b5-bf69-c0a80b700000" name="END_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m8000001d-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000011-5796-15b5-bf69-c0a80b700000" name="EVENT_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m8000001e-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000013-5796-15b5-bf69-c0a80b700000" name="NOTIF_LEVEL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m80000020-578f-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000003-efaf-15b5-bf69-c0a80b700000" name="MEDICATION_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m40000009-efab-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000005-efaf-15b5-bf69-c0a80b700000" name="MEDICATION_SUB_CATEGORY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#m4000000a-efab-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000001-f40a-15b5-944f-c0a80b700000" name="MEDICATION_CATEGORY_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#mc0000006-f405-15b5-944f-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000003-f40a-15b5-944f-c0a80b700000" name="MEDICATION_TYPE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000016-578f-15b5-bf69-c0a80b700000.xml#mc0000005-f405-15b5-944f-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

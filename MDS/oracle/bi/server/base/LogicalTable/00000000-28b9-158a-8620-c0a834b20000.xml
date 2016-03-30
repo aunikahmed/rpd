@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000000-28b9-158a-8620-c0a834b20000" name="CLIENT_FACT" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-28b5-158a-8620-c0a834b20000.xml#m80000000-28b5-158a-8620-c0a834b20000">
+<LogicalColumn mdsid="m00000004-28b9-158a-8620-c0a834b20000" name="AGE_RANGE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:55551445503834">
+<Expr mdsid="m00000001-01f4-0000-4fde-e82000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_ALIAS"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-4fde-e82000000000-m40000002-27ad-158a-8620-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-27ad-158a-8620-c0a834b20000.xml#m40000002-27ad-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000005-28b9-158a-8620-c0a834b20000" name="CLIENT_ID" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:67011445939465" isDefault="true">
+<Expr mdsid="m00000002-01f4-0000-afee-856b00000000" name="Expr">
+<ExprText><![CDATA[ COUNT(DISTINCT "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT(DISTINCT "CLIENT_BMM"."CLIENT_FACT"."CLIENT_ID")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-afee-856b00000000-m00000005-28b9-158a-8620-c0a834b20000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-28b9-158a-8620-c0a834b20000.xml#m00000005-28b9-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:55561445503834">
+<Expr mdsid="m00000003-01f4-0000-5698-069400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_ALIAS"."CLIENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-5698-069400000000-m40000003-27ad-158a-8620-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-27ad-158a-8620-c0a834b20000.xml#m40000003-27ad-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000006-28b9-158a-8620-c0a834b20000" name="FACT_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:55571445503834">
+<Expr mdsid="m00000004-01f4-0000-4cf2-7e7100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_ALIAS"."FACT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-4cf2-7e7100000000-m40000004-27ad-158a-8620-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-27ad-158a-8620-c0a834b20000.xml#m40000004-27ad-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000007-28b9-158a-8620-c0a834b20000" name="IN_PROGRAM_TIME_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:55581445503834">
+<Expr mdsid="m00000005-01f4-0000-7a8f-5cdb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_ALIAS"."IN_PROGRAM_TIME_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-7a8f-5cdb00000000-m40000005-27ad-158a-8620-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-27ad-158a-8620-c0a834b20000.xml#m40000005-27ad-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000008-28b9-158a-8620-c0a834b20000" name="PGM_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:55591445503834">
+<Expr mdsid="m00000006-01f4-0000-cc67-07ad00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_ALIAS"."PGM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-cc67-07ad00000000-m40000006-27ad-158a-8620-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-27ad-158a-8620-c0a834b20000.xml#m40000006-27ad-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000009-28b9-158a-8620-c0a834b20000" name="PROGRAM_CLIENT_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:55601445503834">
+<Expr mdsid="m00000007-01f4-0000-9b9c-92ec00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_ALIAS"."PROGRAM_CLIENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-9b9c-92ec00000000-m40000007-27ad-158a-8620-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-27ad-158a-8620-c0a834b20000.xml#m40000007-27ad-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m0000000b-28b9-158a-8620-c0a834b20000" name="PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:55621445503834">
+<Expr mdsid="m00000008-01f4-0000-acea-147e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_ALIAS"."PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-acea-147e00000000-m40000009-27ad-158a-8620-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-27ad-158a-8620-c0a834b20000.xml#m40000009-27ad-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000000-28b9-158a-8620-c0a834b20000-m00000002-28b9-158a-8620-c0a834b20000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000002-28b9-158a-8620-c0a834b20000.xml#m00000002-28b9-158a-8620-c0a834b20000"/>
+</RefTableSources>
+</LogicalTable>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000000-2bd7-1589-806e-c0a8050e0000" name="GER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m4000009c-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m00000001-2bd7-1589-806e-c0a8050e0000" name="ABOUSE_TYPE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m4000009d-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-2bd7-1589-806e-c0a8050e0000" name="ABUSE_SUSPECTED" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000a0-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000005-2bd7-1589-806e-c0a8050e0000" name="ABUSE_SUSPECTED_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000a1-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000010-2bd7-1589-806e-c0a8050e0000" name="CREATE_APPROVE_INTERVAL" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000ac-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000011-2bd7-1589-806e-c0a8050e0000" name="CREATE_SUBMISSION_INTERVAL" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000ad-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000001c-2bd7-1589-806e-c0a8050e0000" name="EXPLOITATION_SUSPECTED" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000b8-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000001d-2bd7-1589-806e-c0a8050e0000" name="EXPLOITATION_SUSPECT_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000b9-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000001f-2bd7-1589-806e-c0a8050e0000" name="EXPLOITATION_TYPE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000bb-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000002a-2bd7-1589-806e-c0a8050e0000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000c6-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000002f-2bd7-1589-806e-c0a8050e0000" name="NEGLECT_SUSPECTED" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000cb-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000030-2bd7-1589-806e-c0a8050e0000" name="NEGLECT_SUSPECT_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000cc-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000032-2bd7-1589-806e-c0a8050e0000" name="NEGLECT_TYPE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000ce-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000053-2bd7-1589-806e-c0a8050e0000" name="SUBMISSION_APPROVE_INTERVAL" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000009c-2bb0-1589-806e-c0a8050e0000.xml#m400000ef-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="mc0000000-844c-1589-8a27-c0a8050e0000" name="GER_DIM_Key">
+<RefColumns>
+<RefColumn refId="mc0000000-844c-1589-8a27-c0a8050e0000-m0000002a-2bd7-1589-806e-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-2bd7-1589-806e-c0a8050e0000.xml#m0000002a-2bd7-1589-806e-c0a8050e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

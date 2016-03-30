@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<InitBlock mdsid="m40000000-6557-158d-9556-c0a834b20000" name="state_init" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isSessionVar="true" isRowWiseInit="true" refreshPeriod="86400" connectionPoolRef="/oracle/bi/server/base/ConnectionPool/40000001-2b90-1589-806e-c0a8050e0000.xml#m40000001-2b90-1589-806e-c0a8050e0000">
+<DBMapItem name="DefaultMulDB">
+<Value><![CDATA[ select 'state',state_provider from session_login where USERNAME =':USER';]]></Value>
+</DBMapItem>
+<RefVariables>
+<RefVariable refId="m40000000-6557-158d-9556-c0a834b20000-m80000000-6537-158d-9556-c0a834b20000" variableRef="/oracle/bi/server/base/Variable/80000000-6537-158d-9556-c0a834b20000.xml#m80000000-6537-158d-9556-c0a834b20000"/>
+</RefVariables>
+<InitString><![CDATA[ select 'state',state_provider from session_login where USERNAME =':USER';]]></InitString>
+</InitBlock>

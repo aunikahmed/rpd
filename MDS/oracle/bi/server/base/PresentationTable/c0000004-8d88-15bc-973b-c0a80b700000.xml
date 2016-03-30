@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000004-8d88-15bc-973b-c0a80b700000" name="OVERSIGHT_PROVIDER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000011-f769-15b4-9c44-c0a80b700000.xml#m40000011-f769-15b4-9c44-c0a80b700000">
+<Alias name="OVERSIGHT_PROVIDER_DIM_DIRECT_JOIN"/>
+<PresentationColumn mdsid="mc0000000-8d88-15bc-973b-c0a80b700000" name="OVERSIGHT_PROV_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-8d86-15bc-973b-c0a80b700000.xml#m40000003-8d86-15bc-973b-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-8d88-15bc-973b-c0a80b700000" name="PROV_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-8d86-15bc-973b-c0a80b700000.xml#m40000004-8d86-15bc-973b-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000002-8d88-15bc-973b-c0a80b700000" name="PROV_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-8d86-15bc-973b-c0a80b700000.xml#m40000005-8d86-15bc-973b-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-8d88-15bc-973b-c0a80b700000" name="TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-8d86-15bc-973b-c0a80b700000.xml#m40000006-8d86-15bc-973b-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

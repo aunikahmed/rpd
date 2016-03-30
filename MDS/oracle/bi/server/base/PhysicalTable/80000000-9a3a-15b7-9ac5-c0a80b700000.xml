@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m80000000-9a3a-15b7-9ac5-c0a80b700000" name="FACT_BILL_SERVICE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m80000001-9a3a-15b7-9ac5-c0a80b700000" name="BILL_SERVICE_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000002-9a3a-15b7-9ac5-c0a80b700000" name="CLIENT_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000003-9a3a-15b7-9ac5-c0a80b700000" name="PGM_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000004-9a3a-15b7-9ac5-c0a80b700000" name="PROV_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000005-9a3a-15b7-9ac5-c0a80b700000" name="SERVICE_AUTH_AMOUNT" dataType="DOUBLE" scale="2" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000006-9a3a-15b7-9ac5-c0a80b700000" name="TIME_KEY" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000000-5409-15b9-9ac5-c0a80b700000" name="REM_UNITS" dataType="DOUBLE" scale="2" precision="15" nullable="true" valueType="MANY TO MANY" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-5409-15b9-9ac5-c0a80b700000" name="TAX_RATE" dataType="DOUBLE" precision="22" nullable="true" valueType="MANY TO MANY" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-5409-15b9-9ac5-c0a80b700000" name="TOTAL_UNITS" dataType="DOUBLE" scale="2" precision="15" nullable="true" valueType="MANY TO MANY" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000006-5409-15b9-9ac5-c0a80b700000" name="UNIT_COST" dataType="DOUBLE" scale="5" precision="13" nullable="true" valueType="MANY TO MANY" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000008-5409-15b9-9ac5-c0a80b700000" name="USED_UNITS" dataType="DOUBLE" scale="2" precision="15" nullable="true" valueType="MANY TO MANY" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

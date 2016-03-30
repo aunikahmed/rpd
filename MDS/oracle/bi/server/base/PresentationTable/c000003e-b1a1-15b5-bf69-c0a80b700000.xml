@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc000003e-b1a1-15b5-bf69-c0a80b700000" name="BILL_DATA_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c000003c-b1a1-15b5-bf69-c0a80b700000.xml#mc000003c-b1a1-15b5-bf69-c0a80b700000">
+<PresentationColumn mdsid="mc0000006-b1a1-15b5-bf69-c0a80b700000" name="AGE_AT_EVENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000012-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000008-b1a1-15b5-bf69-c0a80b700000" name="BILL_DATA_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000014-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000009-b1a1-15b5-bf69-c0a80b700000" name="BILL_FUNDING_SOURCE_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000015-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000a-b1a1-15b5-bf69-c0a80b700000" name="PRIMARY_DIAGNOSIS_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000016-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000b-b1a1-15b5-bf69-c0a80b700000" name="PRIMARY_DIAGNOSIS_CODE_ICD10" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000017-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000c-b1a1-15b5-bf69-c0a80b700000" name="SERVICE_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000018-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-f5f1-15b5-944f-c0a80b700000" name="AGE_RANGE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000013-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-f5f1-15b5-944f-c0a80b700000" name="AGE_RANGE_INT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m80000000-f5dc-15b5-944f-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-4b20-15b9-9ac5-c0a80b700000" name="VENDOR_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m80000002-4b1e-15b9-9ac5-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

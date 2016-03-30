@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ObjectPrivilege mdsid="mError" name="ObjPriv_1500:144991451449976" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="write" privilegePackageRef="/oracle/bi/server/base/PrivilegePackage/Error.xml#mError">
+<RefObjects>
+<RefObject refId="mError-m40000001-d79d-15a0-9175-c0a834380000" objectTypeId="4010" objectRef="/oracle/bi/server/base/PresentationTable/00000005-077e-1590-9b67-c0a834b20000.xml#m40000001-d79d-15a0-9175-c0a834380000"/>
+</RefObjects>
+</ObjectPrivilege>

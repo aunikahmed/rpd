@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="m40000002-9aa2-15b7-9ac5-c0a80b700000" name="BILL_SERVICE_DIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m40000000-9aa2-15b7-9ac5-c0a80b700000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-464b-466900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."AGE_AT_EVENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-464b-466900000000-m40000003-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m40000003-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-10b5-e69200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."AGE_AT_EVENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-10b5-e69200000000-m00000001-9a73-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000001-9a73-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-2f4f-f1bf00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-2f4f-f1bf00000000-m40000004-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m40000004-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-c895-38b600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-c895-38b600000000-m00000002-9a73-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000002-9a73-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-8d26-ff3a00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."BEGIN_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-8d26-ff3a00000000-m40000005-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m40000005-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-3a71-32fd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."BEGIN_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-3a71-32fd00000000-m00000003-9a73-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000003-9a73-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-785d-dc5d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."BILL_FUNDING_SOURCE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-785d-dc5d00000000-m40000006-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m40000006-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-838a-8f4800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."BILL_FUNDING_SOURCE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-838a-8f4800000000-m00000004-9a73-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000004-9a73-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-749e-12bf00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."BILL_SERVICE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-749e-12bf00000000-m80000000-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m80000000-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-60f8-a3b600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."BILL_SERVICE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-60f8-a3b600000000-m00000005-9a73-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000005-9a73-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-cfd2-c9c200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."PRIMARY_DIAGNOSIS_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-cfd2-c9c200000000-m80000001-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m80000001-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-33f6-c53800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."PRIMARY_DIAGNOSIS_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-33f6-c53800000000-m00000006-9a73-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000006-9a73-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-2cc4-2c5100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."PRIMARY_DIAGNOSIS_CODE_ICD10"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-2cc4-2c5100000000-m80000002-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m80000002-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-5def-d4b700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."PRIMARY_DIAGNOSIS_CODE_ICD10"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-5def-d4b700000000-m00000007-9a73-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000007-9a73-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-4380-db3900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["BILLING_BMM"."BILL_SERVICE_DIM"."VENDOR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-4380-db3900000000-m00000002-541d-15b9-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-9aa2-15b7-9ac5-c0a80b700000.xml#m00000002-541d-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-14d1-b47e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_SERVICE_DIM"."VENDOR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-14d1-b47e00000000-m40000002-5417-15b9-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m40000002-5417-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/00000000-9a73-15b7-9ac5-c0a80b700000.xml#m00000000-9a73-15b7-9ac5-c0a80b700000">
+</Link>
+<WhereClause mdsid="m00000011-01f4-0000-3f22-d9b400000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000012-01f4-0000-5daa-aa9b00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000013-01f4-0000-be0a-407000000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

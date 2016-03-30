@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000000-e705-159b-b79c-c0a834380000" name="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000001-e6eb-159b-b79c-c0a834380000.xml#mc0000001-e6eb-159b-b79c-c0a834380000">
+<LogicalColumn mdsid="m00000004-e79e-159b-b79c-c0a834380000" name="USER_NAME" isWriteable="false">
+<AttrDefn mdsid="m00000076-e8f0-159b-baf3-c0a805100000" name="AD_3900:144521450156992">
+<Expr mdsid="m00000001-01f4-0000-686a-6c1200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["UsageTracking".""."USAGETRACK_BIPLATFORM"."S_NQ_ACCT"."USER_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-686a-6c1200000000-mab0c0dd1-0c79-1000-a95b-0ae812ba0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/ab0c0db2-0c79-1000-a95b-0ae812ba0000.xml#mab0c0dd1-0c79-1000-a95b-0ae812ba0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m40000000-e7a5-159b-b79c-c0a834380000" name="user_key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000000-e7a5-159b-b79c-c0a834380000-m00000004-e79e-159b-b79c-c0a834380000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e705-159b-b79c-c0a834380000.xml#m00000004-e79e-159b-b79c-c0a834380000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000000-e705-159b-b79c-c0a834380000-m00000006-e79e-159b-b79c-c0a834380000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000006-e79e-159b-b79c-c0a834380000.xml#m00000006-e79e-159b-b79c-c0a834380000"/>
+</RefTableSources>
+</LogicalTable>

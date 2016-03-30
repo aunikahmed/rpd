@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000006-28ce-158a-8620-c0a834b20000" name="IN_PROGRAM_TIME_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-28c6-158a-8620-c0a834b20000.xml#m40000000-28c6-158a-8620-c0a834b20000">
+<PresentationColumn mdsid="m40000004-28ce-158a-8620-c0a834b20000" name="YEAR" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000015-28b9-158a-8620-c0a834b20000.xml#m0000001b-28b9-158a-8620-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-e623-15b9-9ac5-c0a80b700000" name="MONTH" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000015-28b9-158a-8620-c0a834b20000.xml#m00000002-e622-15b9-9ac5-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

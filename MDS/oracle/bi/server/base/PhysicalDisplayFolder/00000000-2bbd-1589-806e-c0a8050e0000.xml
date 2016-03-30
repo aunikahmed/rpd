@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalDisplayFolder mdsid="m00000000-2bbd-1589-806e-c0a8050e0000" name="GER" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" databaseRef="/oracle/bi/server/base/Database/00000000-2bb0-1589-806e-c0a8050e0000.xml#m00000000-2bb0-1589-806e-c0a8050e0000">
+<RefTables>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m00000000-2bd7-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/00000000-2bd7-1589-806e-c0a8050e0000.xml#m00000000-2bd7-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m80000000-2be6-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/80000000-2be6-1589-806e-c0a8050e0000.xml#m80000000-2be6-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m40000000-2bf0-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000000-2bf0-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m00000000-2bff-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m00000000-2bff-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m00000000-2c0c-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/00000000-2c0c-1589-806e-c0a8050e0000.xml#m00000000-2c0c-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-mc0000000-2c2b-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/c0000000-2c2b-1589-806e-c0a8050e0000.xml#mc0000000-2c2b-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m40000000-2c34-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/40000000-2c34-1589-806e-c0a8050e0000.xml#m40000000-2c34-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m40000000-83b1-1589-8a27-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000000-83b1-1589-8a27-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m80000000-83e0-1589-8a27-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000000-83e0-1589-8a27-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m40000000-2d61-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m40000000-2d61-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m40000000-2daf-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/40000000-2daf-1589-806e-c0a8050e0000.xml#m40000000-2daf-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m40000000-2d76-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m40000000-2d76-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m00000000-2d90-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/00000000-2d90-1589-806e-c0a8050e0000.xml#m00000000-2d90-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m40000000-2d96-1589-806e-c0a8050e0000" tableRef="/oracle/bi/server/base/PhysicalTable/40000000-2d96-1589-806e-c0a8050e0000.xml#m40000000-2d96-1589-806e-c0a8050e0000"/>
+<RefPhysicalTable refId="m00000000-2bbd-1589-806e-c0a8050e0000-m00000000-cc9e-1589-8620-c0a834b20000" tableRef="/oracle/bi/server/base/PhysicalTable/00000000-cc9e-1589-8620-c0a834b20000.xml#m00000000-cc9e-1589-8620-c0a834b20000"/>
+</RefTables>
+</PhysicalDisplayFolder>

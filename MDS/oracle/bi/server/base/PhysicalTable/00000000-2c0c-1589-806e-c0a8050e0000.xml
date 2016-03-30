@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000000-2c0c-1589-806e-c0a8050e0000" name="GER_EVENT_OTHER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m40000157-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m00000002-2c0c-1589-806e-c0a8050e0000" name="AGGRESSOR_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m40000159-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000003-2c0c-1589-806e-c0a8050e0000" name="EVENT" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m4000015a-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000006-2c0c-1589-806e-c0a8050e0000" name="EVENT_ALTERCATION_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m4000015d-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000d-2c0c-1589-806e-c0a8050e0000" name="EVENT_LOCATION_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m40000164-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000e-2c0c-1589-806e-c0a8050e0000" name="EVENT_OTHER" dataType="VARCHAR" precision="64" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m40000165-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000012-2c0c-1589-806e-c0a8050e0000" name="EVENT_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m40000169-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000017-2c0c-1589-806e-c0a8050e0000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000157-2bb0-1589-806e-c0a8050e0000.xml#m4000016e-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m00000000-8432-1589-8a27-c0a8050e0000" name="GER_EVENT_OTHER_DIM_Key">
+<RefColumns>
+<RefColumn refId="m00000000-8432-1589-8a27-c0a8050e0000-m00000017-2c0c-1589-806e-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-2c0c-1589-806e-c0a8050e0000.xml#m00000017-2c0c-1589-806e-c0a8050e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

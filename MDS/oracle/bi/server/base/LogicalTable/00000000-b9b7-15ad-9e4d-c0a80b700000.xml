@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m00000000-b9b7-15ad-9e4d-c0a80b700000" name="CLIENT_FACT_BY_AGE" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-b975-15ac-9e4d-c0a80b700000.xml#m00000000-b975-15ac-9e4d-c0a80b700000">
+<LogicalColumn mdsid="m00000003-b9b7-15ad-9e4d-c0a80b700000" name="AGE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:168041454827236">
+<Expr mdsid="m00000001-01f4-0000-bab4-ae8d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."AGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-bab4-ae8d00000000-mc0000001-c4ed-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000001-c4ed-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000004-b9b7-15ad-9e4d-c0a80b700000" name="AGE_RANGE" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/00000000-b9b7-15ad-9e4d-c0a80b700000.xml#m00000000-0b94-15ae-9e4d-c0a80b700000">
+<AttrDefn mdsid="mError" name="AD_3900:168051454827236">
+<Expr mdsid="m00000002-01f4-0000-c724-5fec00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-c724-5fec00000000-mc0000002-c4ed-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000002-c4ed-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000005-b9b7-15ad-9e4d-c0a80b700000" name="CLIENT_ID" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:168301454828067" isDefault="true">
+<Expr mdsid="m00000003-01f4-0000-c520-867900000000" name="Expr">
+<ExprText><![CDATA[ COUNT(DISTINCT "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT(DISTINCT "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."CLIENT_ID")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-c520-867900000000-m00000005-b9b7-15ad-9e4d-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-b9b7-15ad-9e4d-c0a80b700000.xml#m00000005-b9b7-15ad-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:168061454827236">
+<Expr mdsid="m00000004-01f4-0000-b6b9-98e800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."CLIENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-b6b9-98e800000000-mc0000003-c4ed-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000003-c4ed-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000006-b9b7-15ad-9e4d-c0a80b700000" name="PGM_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:168071454827236">
+<Expr mdsid="m00000005-01f4-0000-810b-1f4f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."PGM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-810b-1f4f00000000-mc0000004-c4ed-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000004-c4ed-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000007-b9b7-15ad-9e4d-c0a80b700000" name="PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:168081454827236">
+<Expr mdsid="m00000006-01f4-0000-821e-d0be00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-821e-d0be00000000-mc0000005-c4ed-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000005-c4ed-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000000-0b94-15ae-9e4d-c0a80b700000" name="AGE_RANGE_INT" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000007-01f4-0000-7c10-c50400000000" name="Expr">
+<ExprText><![CDATA[CASE  "%1"   WHEN '0-3' THEN 1 
+WHEN '3-5' THEN 2
+WHEN '5-17' THEN 3
+WHEN '17-40' THEN 4
+WHEN '40-65' THEN 5
+WHEN '65-85' THEN 6
+WHEN '85+' THEN 7
+WHEN 'INVALID' THEN 8
+WHEN 'Unknown' THEN 9
+END 
+
+
+]]></ExprText>
+<ExprTextDesc><![CDATA[CASE  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."AGE_RANGE"   WHEN '0-3' THEN 1 
+WHEN '3-5' THEN 2
+WHEN '5-17' THEN 3
+WHEN '17-40' THEN 4
+WHEN '40-65' THEN 5
+WHEN '65-85' THEN 6
+WHEN '85+' THEN 7
+WHEN 'INVALID' THEN 8
+WHEN 'Unknown' THEN 9
+END 
+
+
+]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-7c10-c50400000000-m00000004-b9b7-15ad-9e4d-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-b9b7-15ad-9e4d-c0a80b700000.xml#m00000004-b9b7-15ad-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mError" name="AD_3900:169211454911287">
+<Expr mdsid="m00000008-01f4-0000-2e14-18be00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000002-15fb-15ae-9c58-c0a80b700000" name="DAY_DURATION_BY_PGM" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:169971454921768">
+<Expr mdsid="m00000009-01f4-0000-be68-89c700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."DAY_DURATION_BY_PGM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-be68-89c700000000-m00000000-15ef-15ae-9c58-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#m00000000-15ef-15ae-9c58-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000001-6c79-15ae-bb1f-c0a80b700000" name="DAY_DURATION_BY_PGM_RANGE" isDerived="true" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/00000000-b9b7-15ad-9e4d-c0a80b700000.xml#mc0000000-af83-15ae-bb1f-c0a80b700000">
+<Expr mdsid="m0000000a-01f4-0000-d711-3d3200000000" name="Expr">
+<ExprText><![CDATA[CASE  WHEN  "%1"<0  THEN 'Invalid' 
+WHEN  "%1"<=29  THEN 'Within One Month'
+WHEN  "%1"<=59  THEN 'Within Two Months'
+WHEN  "%1"<=89  THEN 'Within Three Months'
+WHEN  "%1"<=119  THEN 'Within Four Months'
+WHEN  "%1"<=149  THEN 'Within Five Months'
+WHEN  "%1"<=179  THEN 'Within Six Months'
+WHEN  "%1"<=209  THEN 'Within Seven Months'
+WHEN  "%1"<=239  THEN 'Within Eight Months'
+WHEN  "%1"<=269  THEN 'Within Nine Months'
+WHEN  "%1"<=299  THEN 'Within Ten Months'
+WHEN  "%1"<=329  THEN 'Within Eleven Months'
+WHEN  "%1"<=364  THEN 'Within One Year'
+WHEN  "%1"<=729  THEN 'Within Two Years'
+WHEN  "%1"<=1094  THEN 'Within Three Years'
+WHEN  "%1"<=1459  THEN 'Within Four Years'
+WHEN  "%1"<=1824  THEN 'Within Five Years'
+WHEN  "%1"<=2189 THEN 'Within Six Years'
+WHEN  "%1"<=2554  THEN 'Within Seven Years'
+WHEN  "%1"<=2919  THEN 'Within Eight Years'
+WHEN  "%1"<=3284  THEN 'Within Nine Years'
+WHEN  "%1"<=3649  THEN 'Within Ten Years'
+WHEN  "%1" is null  THEN 'NULL'
+ELSE 'More Than Ten Years'
+END ]]></ExprText>
+<ExprTextDesc><![CDATA[CASE  WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<0  THEN 'Invalid' 
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=29  THEN 'Within One Month'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=59  THEN 'Within Two Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=89  THEN 'Within Three Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=119  THEN 'Within Four Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=149  THEN 'Within Five Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=179  THEN 'Within Six Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=209  THEN 'Within Seven Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=239  THEN 'Within Eight Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=269  THEN 'Within Nine Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=299  THEN 'Within Ten Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=329  THEN 'Within Eleven Months'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=364  THEN 'Within One Year'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=729  THEN 'Within Two Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=1094  THEN 'Within Three Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=1459  THEN 'Within Four Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=1824  THEN 'Within Five Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=2189 THEN 'Within Six Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=2554  THEN 'Within Seven Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=2919  THEN 'Within Eight Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=3284  THEN 'Within Nine Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM"<=3649  THEN 'Within Ten Years'
+WHEN  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM" is null  THEN 'NULL'
+ELSE 'More Than Ten Years'
+END ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-d711-3d3200000000-m00000002-15fb-15ae-9c58-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-b9b7-15ad-9e4d-c0a80b700000.xml#m00000002-15fb-15ae-9c58-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mError" name="AD_3900:170941455010850">
+<Expr mdsid="m0000000b-01f4-0000-fde4-0b1900000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000000-af83-15ae-bb1f-c0a80b700000" name="DAY_DURATION_BY_PGM_INT" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000000c-01f4-0000-fd68-ecba00000000" name="Expr">
+<ExprText><![CDATA[CASE  "%1"  WHEN 'Within One Month' THEN 1 
+WHEN 'Within One Month' THEN 1
+WHEN 'Within Two Months' THEN 2
+WHEN 'Within Three Months' THEN 3
+WHEN 'Within Four Months' THEN 4
+WHEN 'Within Five Months' THEN 5
+WHEN 'Within Six Months' THEN 6
+WHEN 'Within Seven Months' THEN 7
+WHEN 'Within Eight Months' THEN 8
+WHEN 'Within Nine Months' THEN 9
+WHEN 'Within Ten Months' THEN 10
+WHEN 'Within Eleven Months' THEN 11
+WHEN 'Within One Year' THEN 12
+WHEN 'Within Two Years' THEN 13
+WHEN 'Within Three Years' THEN 14
+WHEN 'Within Four Years' THEN 15
+WHEN 'Within Five Years' THEN 16
+WHEN 'Within Six Years' THEN 17
+WHEN 'Within Seven Years' THEN 18
+WHEN 'Within Eight Years' THEN 19
+WHEN 'Within Nine Years' THEN 20
+WHEN 'Within Ten Years' THEN 21
+WHEN 'More Than Ten Years' THEN 22
+END ]]></ExprText>
+<ExprTextDesc><![CDATA[CASE  "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."DAY_DURATION_BY_PGM_RANGE"  WHEN 'Within One Month' THEN 1 
+WHEN 'Within One Month' THEN 1
+WHEN 'Within Two Months' THEN 2
+WHEN 'Within Three Months' THEN 3
+WHEN 'Within Four Months' THEN 4
+WHEN 'Within Five Months' THEN 5
+WHEN 'Within Six Months' THEN 6
+WHEN 'Within Seven Months' THEN 7
+WHEN 'Within Eight Months' THEN 8
+WHEN 'Within Nine Months' THEN 9
+WHEN 'Within Ten Months' THEN 10
+WHEN 'Within Eleven Months' THEN 11
+WHEN 'Within One Year' THEN 12
+WHEN 'Within Two Years' THEN 13
+WHEN 'Within Three Years' THEN 14
+WHEN 'Within Four Years' THEN 15
+WHEN 'Within Five Years' THEN 16
+WHEN 'Within Six Years' THEN 17
+WHEN 'Within Seven Years' THEN 18
+WHEN 'Within Eight Years' THEN 19
+WHEN 'Within Nine Years' THEN 20
+WHEN 'Within Ten Years' THEN 21
+WHEN 'More Than Ten Years' THEN 22
+END ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-fd68-ecba00000000-m80000001-6c79-15ae-bb1f-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-b9b7-15ad-9e4d-c0a80b700000.xml#m80000001-6c79-15ae-bb1f-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mError" name="AD_3900:171061455079383">
+<Expr mdsid="m0000000d-01f4-0000-23a1-787800000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000005-8a3f-15be-973b-c0a80b700000" name="CLIENT_UNIQUE_ID" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:240281459235105" isDefault="true">
+<Expr mdsid="m0000000e-01f4-0000-34aa-4e6100000000" name="Expr">
+<ExprText><![CDATA[ COUNT(DISTINCT "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT(DISTINCT "CLIENT_BMM_V1"."CLIENT_FACT_BY_AGE"."CLIENT_UNIQUE_ID")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-34aa-4e6100000000-m40000005-8a3f-15be-973b-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/00000000-b9b7-15ad-9e4d-c0a80b700000.xml#m40000005-8a3f-15be-973b-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:240251459235105">
+<Expr mdsid="m0000000f-01f4-0000-e427-2e8a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."CLIENT_UNIQUE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-e427-2e8a00000000-mc0000001-89ea-15be-973b-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000001-89ea-15be-973b-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000006-8a3f-15be-973b-c0a80b700000" name="OVERSIGHT_PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:240261459235105">
+<Expr mdsid="m00000010-01f4-0000-7511-b55000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."OVERSIGHT_PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-7511-b55000000000-mc0000000-89ea-15be-973b-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000000-89ea-15be-973b-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000003-e4fc-15be-973b-c0a80b700000" name="TIME_KEY" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:240401459328171">
+<Expr mdsid="m00000011-01f4-0000-8f98-a34a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_FACT_BY_AGE_ALIAS"."TIME_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-8f98-a34a00000000-m80000000-e01c-15be-973b-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#m80000000-e01c-15be-973b-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m00000000-b9b7-15ad-9e4d-c0a80b700000-m00000002-b9b7-15ad-9e4d-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/00000002-b9b7-15ad-9e4d-c0a80b700000.xml#m00000002-b9b7-15ad-9e4d-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

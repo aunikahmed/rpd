@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000044-c989-158d-9b67-c0a834b20000" name="GER_LOCATION_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
+<PresentationColumn mdsid="mc0000041-c989-158d-9b67-c0a834b20000" name="GER_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-cccb-1589-8620-c0a834b20000.xml#m00000003-cccb-1589-8620-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000042-c989-158d-9b67-c0a834b20000" name="LOCATION_OTHER_THAN_PROGRAM" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-cccb-1589-8620-c0a834b20000.xml#m00000004-cccb-1589-8620-c0a834b20000">
+</PresentationColumn>
+</PresentationTable>

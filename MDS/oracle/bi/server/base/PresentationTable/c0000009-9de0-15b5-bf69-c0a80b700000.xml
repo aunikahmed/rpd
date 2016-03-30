@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000009-9de0-15b5-bf69-c0a80b700000" name="FACT_IDF_DIAGNOSIS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000011-f769-15b4-9c44-c0a80b700000.xml#m40000011-f769-15b4-9c44-c0a80b700000">
+<Alias name="FACT_IDF_DIAGNOSIS_ALIAS"/>
+<PresentationColumn mdsid="mc0000006-9de0-15b5-bf69-c0a80b700000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000036-9dc4-15b5-bf69-c0a80b700000.xml#m4000003a-9dc4-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-9de0-15b5-bf69-c0a80b700000" name="CLIENT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000036-9dc4-15b5-bf69-c0a80b700000.xml#m40000039-9dc4-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-9de0-15b5-bf69-c0a80b700000" name="PROV_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000036-9dc4-15b5-bf69-c0a80b700000.xml#m4000003b-9dc4-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000008-9de0-15b5-bf69-c0a80b700000" name="TIME_KEY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000036-9dc4-15b5-bf69-c0a80b700000.xml#m4000003c-9dc4-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000001-8cf3-15bc-973b-c0a80b700000" name="CLIENT_UNIQUE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000036-9dc4-15b5-bf69-c0a80b700000.xml#m80000005-8cf0-15bc-973b-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000003-8cf3-15bc-973b-c0a80b700000" name="OVERSIGHT_PROV_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000036-9dc4-15b5-bf69-c0a80b700000.xml#m80000006-8cf0-15bc-973b-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

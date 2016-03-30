@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc0000000-9d0d-15b5-bf69-c0a80b700000" name="FACT_IDF_DIAGNOSIS_ALIAS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/00000006-9cee-15b5-bf69-c0a80b700000.xml#m00000006-9cee-15b5-bf69-c0a80b700000">
+<PhysicalColumn mdsid="m00000000-9d0e-15b5-bf69-c0a80b700000" name="CLIENT_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000006-9cee-15b5-bf69-c0a80b700000.xml#m00000007-9cee-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000001-9d0e-15b5-bf69-c0a80b700000" name="ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000006-9cee-15b5-bf69-c0a80b700000.xml#m00000008-9cee-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-9d0e-15b5-bf69-c0a80b700000" name="PROV_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000006-9cee-15b5-bf69-c0a80b700000.xml#m00000009-9cee-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000003-9d0e-15b5-bf69-c0a80b700000" name="TIME_KEY" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000006-9cee-15b5-bf69-c0a80b700000.xml#m0000000a-9cee-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000000-8c3d-15bc-8e0a-c0a80b700000" name="CLIENT_UNIQUE_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000006-9cee-15b5-bf69-c0a80b700000.xml#m00000001-8c3c-15bc-8e0a-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000001-8c3d-15bc-8e0a-c0a80b700000" name="OVERSIGHT_PROV_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/00000006-9cee-15b5-bf69-c0a80b700000.xml#m00000003-8c3c-15bc-8e0a-c0a80b700000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m00000000-9da6-15b5-bf69-c0a80b700000" name="FACT_IDF_DIAGNOSIS_ALIAS_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-9d9a-15b5-bf69-c0a80b700000.xml#m00000000-9da9-15b5-bf69-c0a80b700000">
+<RefColumns>
+<RefColumn refId="m00000000-9da6-15b5-bf69-c0a80b700000-m00000001-9d0e-15b5-bf69-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-9d0d-15b5-bf69-c0a80b700000.xml#m00000001-9d0e-15b5-bf69-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-9daa-15b5-bf69-c0a80b700000" name="FACT_IDF_DIAGNOSIS_ALIAS_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-c55c-15ac-9e4d-c0a80b700000.xml#m00000000-c570-15ac-9e4d-c0a80b700000">
+<RefColumns>
+<RefColumn refId="m40000000-9daa-15b5-bf69-c0a80b700000-m00000003-9d0e-15b5-bf69-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-9d0d-15b5-bf69-c0a80b700000.xml#m00000003-9d0e-15b5-bf69-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-9dad-15b5-bf69-c0a80b700000" name="FACT_IDF_DIAGNOSIS_ALIAS_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m00000000-846e-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m00000000-9dad-15b5-bf69-c0a80b700000-m00000000-9d0e-15b5-bf69-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-9d0d-15b5-bf69-c0a80b700000.xml#m00000000-9d0e-15b5-bf69-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-9dbe-15b5-bf69-c0a80b700000" name="FACT_IDF_DIAGNOSIS_ALIAS_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-2d90-1589-806e-c0a8050e0000.xml#m80000000-2de7-1589-806e-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m00000000-9dbe-15b5-bf69-c0a80b700000-m00000002-9d0e-15b5-bf69-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-9d0d-15b5-bf69-c0a80b700000.xml#m00000002-9d0e-15b5-bf69-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-8d82-15bc-973b-c0a80b700000" name="FACT_IDF_DIAGNOSIS_ALIAS_Foreign Key#4" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-8d5d-15bc-973b-c0a80b700000.xml#m00000000-8d84-15bc-973b-c0a80b700000">
+<RefColumns>
+<RefColumn refId="mc0000000-8d82-15bc-973b-c0a80b700000-m40000001-8c3d-15bc-8e0a-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-9d0d-15b5-bf69-c0a80b700000.xml#m40000001-8c3d-15bc-8e0a-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

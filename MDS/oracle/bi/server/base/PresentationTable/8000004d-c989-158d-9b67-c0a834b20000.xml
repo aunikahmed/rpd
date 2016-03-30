@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m8000004d-c989-158d-9b67-c0a834b20000" name="GER_EVENT_MER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
+<PresentationColumn mdsid="m80000041-c989-158d-9b67-c0a834b20000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000146-8495-1589-8a27-c0a8050e0000.xml#mc0000156-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000035-c989-158d-9b67-c0a834b20000" name="ATTENTION_REQUIRED_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000146-8495-1589-8a27-c0a8050e0000.xml#mc000014a-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000003c-c989-158d-9b67-c0a834b20000" name="ERROR_CAUSE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000146-8495-1589-8a27-c0a8050e0000.xml#mc0000151-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000040-c989-158d-9b67-c0a834b20000" name="ERROR_TYPE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000146-8495-1589-8a27-c0a8050e0000.xml#mc0000155-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-ccf4-15a6-b586-c0a834380000" name="DISCOVERED_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000146-8495-1589-8a27-c0a8050e0000.xml#mc000014c-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000000-ccf7-15a6-b586-c0a834380000" name="SEVERITY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000146-8495-1589-8a27-c0a8050e0000.xml#mc0000162-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+</PresentationTable>

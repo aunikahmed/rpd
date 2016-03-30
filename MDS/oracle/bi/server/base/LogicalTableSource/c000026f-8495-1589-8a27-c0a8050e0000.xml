@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mc000026f-8495-1589-8a27-c0a8050e0000" name="GER_TIME_DIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c000026d-8495-1589-8a27-c0a8050e0000.xml#mc000026d-8495-1589-8a27-c0a8050e0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-d518-58c600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_TIME_DIM"."EVENT_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-d518-58c600000000-mc0000271-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000026d-8495-1589-8a27-c0a8050e0000.xml#mc0000271-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-5f4a-323d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_TIME_DIM"."EVENT_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-5f4a-323d00000000-m80000002-83e0-1589-8a27-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000002-83e0-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-a9c6-8eb200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_TIME_DIM"."EVENT_HOUR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-a9c6-8eb200000000-mc0000273-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000026d-8495-1589-8a27-c0a8050e0000.xml#mc0000273-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-6c39-163900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_TIME_DIM"."EVENT_HOUR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-6c39-163900000000-m80000004-83e0-1589-8a27-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000004-83e0-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-bf06-e63800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_TIME_DIM"."EVENT_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-bf06-e63800000000-mc0000275-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000026d-8495-1589-8a27-c0a8050e0000.xml#mc0000275-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-5a07-e01100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_TIME_DIM"."EVENT_MONTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-5a07-e01100000000-m80000006-83e0-1589-8a27-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000006-83e0-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-539f-f7e600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_TIME_DIM"."EVENT_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-539f-f7e600000000-mc0000277-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000026d-8495-1589-8a27-c0a8050e0000.xml#mc0000277-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-2688-c3d200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_TIME_DIM"."EVENT_YEAR"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-2688-c3d200000000-m80000008-83e0-1589-8a27-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000008-83e0-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-f2c8-67fe00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_TIME_DIM"."TIME_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-f2c8-67fe00000000-mc0000278-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000026d-8495-1589-8a27-c0a8050e0000.xml#mc0000278-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-3ea2-e35600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_TIME_DIM"."TIME_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-3ea2-e35600000000-m80000009-83e0-1589-8a27-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000009-83e0-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000000-83e0-1589-8a27-c0a8050e0000">
+</Link>
+<WhereClause mdsid="m0000000b-01f4-0000-ddeb-906100000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m0000000c-01f4-0000-ec91-ab5600000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m0000000d-01f4-0000-70e3-e9a600000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

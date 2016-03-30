@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m4000000f-b17b-15b5-bf69-c0a80b700000" name="BILL_DATA_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-b175-15b5-bf69-c0a80b700000.xml#m00000000-b175-15b5-bf69-c0a80b700000">
+<LogicalColumn mdsid="m40000012-b17b-15b5-bf69-c0a80b700000" name="AGE_AT_EVENT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:229311456916136">
+<Expr mdsid="m00000001-01f4-0000-cebf-741700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."AGE_AT_EVENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-cebf-741700000000-m80000001-b0f7-15b5-bf69-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m80000001-b0f7-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000013-b17b-15b5-bf69-c0a80b700000" name="AGE_RANGE" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m80000000-f5dc-15b5-944f-c0a80b700000">
+<AttrDefn mdsid="mError" name="AD_3900:229321456916136">
+<Expr mdsid="m00000002-01f4-0000-0989-019000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-0989-019000000000-m80000002-b0f7-15b5-bf69-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m80000002-b0f7-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000014-b17b-15b5-bf69-c0a80b700000" name="BILL_DATA_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:229331456916136">
+<Expr mdsid="m00000003-01f4-0000-5d16-be9e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."BILL_DATA_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-5d16-be9e00000000-m80000003-b0f7-15b5-bf69-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m80000003-b0f7-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000015-b17b-15b5-bf69-c0a80b700000" name="BILL_FUNDING_SOURCE_NAME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:229341456916136">
+<Expr mdsid="m00000004-01f4-0000-3166-459d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."BILL_FUNDING_SOURCE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-3166-459d00000000-m80000004-b0f7-15b5-bf69-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m80000004-b0f7-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000016-b17b-15b5-bf69-c0a80b700000" name="PRIMARY_DIAGNOSIS_CODE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:229351456916136">
+<Expr mdsid="m00000005-01f4-0000-5aef-416e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."PRIMARY_DIAGNOSIS_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-5aef-416e00000000-m80000005-b0f7-15b5-bf69-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m80000005-b0f7-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000017-b17b-15b5-bf69-c0a80b700000" name="PRIMARY_DIAGNOSIS_CODE_ICD10" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:229361456916136">
+<Expr mdsid="m00000006-01f4-0000-ec8a-9e1f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."PRIMARY_DIAGNOSIS_CODE_ICD10"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-ec8a-9e1f00000000-m80000006-b0f7-15b5-bf69-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m80000006-b0f7-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000018-b17b-15b5-bf69-c0a80b700000" name="SERVICE_DATE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:229371456916136">
+<Expr mdsid="m00000007-01f4-0000-620f-675a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."SERVICE_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-620f-675a00000000-m80000007-b0f7-15b5-bf69-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m80000007-b0f7-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000000-f5dc-15b5-944f-c0a80b700000" name="AGE_RANGE_INT" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000008-01f4-0000-02f2-9bb600000000" name="Expr">
+<ExprText><![CDATA[CASE "%1"  WHEN '0-3' THEN 1 
+WHEN '3-5' THEN 2
+WHEN '5-17' THEN 3
+WHEN '17-40' THEN 4
+WHEN '40-65' THEN 5
+WHEN '65-85' THEN 6
+WHEN '85+' THEN 7
+WHEN 'INVALID' THEN 8
+WHEN 'Unknown' THEN 9
+END 
+
+]]></ExprText>
+<ExprTextDesc><![CDATA[CASE "BILLING_BMM"."BILL_DATA_DIM"."AGE_RANGE"  WHEN '0-3' THEN 1 
+WHEN '3-5' THEN 2
+WHEN '5-17' THEN 3
+WHEN '17-40' THEN 4
+WHEN '40-65' THEN 5
+WHEN '65-85' THEN 6
+WHEN '85+' THEN 7
+WHEN 'INVALID' THEN 8
+WHEN 'Unknown' THEN 9
+END 
+
+]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-02f2-9bb600000000-m40000013-b17b-15b5-bf69-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000013-b17b-15b5-bf69-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mError" name="AD_3900:232771456986068">
+<Expr mdsid="m00000009-01f4-0000-f6e0-98a500000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000002-4b1e-15b9-9ac5-c0a80b700000" name="VENDOR_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:237241457859735">
+<Expr mdsid="m0000000a-01f4-0000-c5f9-90c800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."BILL_DATA_DIM"."VENDOR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-c5f9-90c800000000-m40000002-4b09-15b9-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-b0f7-15b5-bf69-c0a80b700000.xml#m40000002-4b09-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m40000019-b17b-15b5-bf69-c0a80b700000" name="BILL_DATA_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000019-b17b-15b5-bf69-c0a80b700000-m40000014-b17b-15b5-bf69-c0a80b700000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000f-b17b-15b5-bf69-c0a80b700000.xml#m40000014-b17b-15b5-bf69-c0a80b700000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m4000000f-b17b-15b5-bf69-c0a80b700000-m40000011-b17b-15b5-bf69-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000011-b17b-15b5-bf69-c0a80b700000.xml#m40000011-b17b-15b5-bf69-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

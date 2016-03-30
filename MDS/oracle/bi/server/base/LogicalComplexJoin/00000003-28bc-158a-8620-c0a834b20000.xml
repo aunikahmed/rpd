@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalComplexJoin mdsid="m00000003-28bc-158a-8620-c0a834b20000" name="RelationshipPROVIDER_DIMCLIENT_FACT_ALIAS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="Inner" logicalTable1Ref="/oracle/bi/server/base/LogicalTable/80000076-28b9-158a-8620-c0a834b20000.xml#m80000076-28b9-158a-8620-c0a834b20000" multiplicity1="0..1" isAggregate1="false" logicalTable2Ref="/oracle/bi/server/base/LogicalTable/00000000-28b9-158a-8620-c0a834b20000.xml#m00000000-28b9-158a-8620-c0a834b20000" multiplicity2="n..n" isAggregate2="false">
+</LogicalComplexJoin>

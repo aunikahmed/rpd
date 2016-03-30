@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc0000000-1ae5-158a-8620-c0a834b20000" name="BRIDGE_PROGRAM_CLIENT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="mc0000001-1ae5-158a-8620-c0a834b20000" name="ADMISSION_DATE" dataType="DATETIME" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000002-1ae5-158a-8620-c0a834b20000" name="CLIENT_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000003-1ae5-158a-8620-c0a834b20000" name="FACTOR" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000004-1ae5-158a-8620-c0a834b20000" name="FORM_COUNT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000005-1ae5-158a-8620-c0a834b20000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000006-1ae5-158a-8620-c0a834b20000" name="PGM_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000007-1ae5-158a-8620-c0a834b20000" name="PROV_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000008-1ae5-158a-8620-c0a834b20000" name="RELEASE_DATE" dataType="DATETIME" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000009-1ae5-158a-8620-c0a834b20000" name="STATUS" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

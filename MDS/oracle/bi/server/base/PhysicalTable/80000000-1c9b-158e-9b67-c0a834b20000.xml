@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m80000000-1c9b-158e-9b67-c0a834b20000" name="OUTCOME_MEASURE_TAG_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/80000003-1c67-158e-9b67-c0a834b20000.xml#m80000003-1c67-158e-9b67-c0a834b20000">
+<PhysicalColumn mdsid="m80000001-1c9b-158e-9b67-c0a834b20000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000003-1c67-158e-9b67-c0a834b20000.xml#m80000004-1c67-158e-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000002-1c9b-158e-9b67-c0a834b20000" name="MEASURE_DESCRIPTION" dataType="VARCHAR" precision="256" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000003-1c67-158e-9b67-c0a834b20000.xml#m80000005-1c67-158e-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000003-1c9b-158e-9b67-c0a834b20000" name="MEASURE_TYPE_NAME" dataType="VARCHAR" precision="120" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000003-1c67-158e-9b67-c0a834b20000.xml#m80000006-1c67-158e-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000004-1c9b-158e-9b67-c0a834b20000" name="OUTCOME_MEASURE_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000003-1c67-158e-9b67-c0a834b20000.xml#m80000007-1c67-158e-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000005-1c9b-158e-9b67-c0a834b20000" name="TAG_DESCRIPTION" dataType="VARCHAR" precision="4000" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000003-1c67-158e-9b67-c0a834b20000.xml#m80000008-1c67-158e-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000006-1c9b-158e-9b67-c0a834b20000" name="TAG_NAME" dataType="VARCHAR" precision="512" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000003-1c67-158e-9b67-c0a834b20000.xml#m80000009-1c67-158e-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m40000000-1cd9-158e-9b67-c0a834b20000" name="OUTCOME_MEASURE_TAG_DIM_Key">
+<RefColumns>
+<RefColumn refId="m40000000-1cd9-158e-9b67-c0a834b20000-m80000001-1c9b-158e-9b67-c0a834b20000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-1c9b-158e-9b67-c0a834b20000.xml#m80000001-1c9b-158e-9b67-c0a834b20000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

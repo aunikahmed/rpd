@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000000-c4e0-15ac-9e4d-c0a80b700000" name="CLIENT_COUNT_BY_PGM_FACT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m40000001-c4e0-15ac-9e4d-c0a80b700000" name="PERIOD_TYPE" dataType="VARCHAR" precision="2" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000002-c4e0-15ac-9e4d-c0a80b700000" name="PGM_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-c4e0-15ac-9e4d-c0a80b700000" name="PROV_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-c4e0-15ac-9e4d-c0a80b700000" name="TIME_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-c4e0-15ac-9e4d-c0a80b700000" name="TOTAL_CLIENT" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

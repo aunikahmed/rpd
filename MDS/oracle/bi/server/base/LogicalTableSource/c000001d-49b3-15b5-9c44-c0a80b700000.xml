@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mc000001d-49b3-15b5-9c44-c0a80b700000" name="HLTH_INFECTION_TRACKING_DIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc000001b-49b3-15b5-9c44-c0a80b700000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-0ddf-44bb00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HEALTH_TRACKING_BMM"."HLTH_INFECTION_TRACKING_DIM"."AGE_AT_EVENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0ddf-44bb00000000-mc000001e-49b3-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc000001e-49b3-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-4024-310400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_INFECTION_TRACKING_DIM"."AGE_AT_EVENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-4024-310400000000-mc0000001-fcb6-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000001-fcb6-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-16b4-3ce700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HEALTH_TRACKING_BMM"."HLTH_INFECTION_TRACKING_DIM"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-16b4-3ce700000000-mc000001f-49b3-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc000001f-49b3-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-2738-582e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_INFECTION_TRACKING_DIM"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-2738-582e00000000-mc0000002-fcb6-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000002-fcb6-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-ea86-e94100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HEALTH_TRACKING_BMM"."HLTH_INFECTION_TRACKING_DIM"."DIAGNOSIS_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-ea86-e94100000000-mc0000020-49b3-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc0000020-49b3-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-f978-d7ac00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_INFECTION_TRACKING_DIM"."DIAGNOSIS_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-f978-d7ac00000000-mc0000003-fcb6-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000003-fcb6-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-5aaa-8a9c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HEALTH_TRACKING_BMM"."HLTH_INFECTION_TRACKING_DIM"."EVENT_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-5aaa-8a9c00000000-mc0000021-49b3-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc0000021-49b3-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-c7cc-7f1300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_INFECTION_TRACKING_DIM"."EVENT_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-c7cc-7f1300000000-mc0000004-fcb6-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000004-fcb6-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-52cd-7a3800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HEALTH_TRACKING_BMM"."HLTH_INFECTION_TRACKING_DIM"."HOSPITALIZATION"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-52cd-7a3800000000-mc0000022-49b3-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc0000022-49b3-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-5c6d-425000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_INFECTION_TRACKING_DIM"."HOSPITALIZATION"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-5c6d-425000000000-mc0000005-fcb6-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000005-fcb6-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-270b-b92e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HEALTH_TRACKING_BMM"."HLTH_INFECTION_TRACKING_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-270b-b92e00000000-mc0000023-49b3-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc0000023-49b3-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-4e03-a03d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_INFECTION_TRACKING_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-4e03-a03d00000000-mc0000006-fcb6-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000006-fcb6-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-7920-6d8b00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["HEALTH_TRACKING_BMM"."HLTH_INFECTION_TRACKING_DIM"."NOTIF_LEVEL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-7920-6d8b00000000-mc0000024-49b3-15b5-9c44-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c000001b-49b3-15b5-9c44-c0a80b700000.xml#mc0000024-49b3-15b5-9c44-c0a80b700000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-669d-3e7b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_INFECTION_TRACKING_DIM"."NOTIF_LEVEL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-669d-3e7b00000000-mc0000007-fcb6-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000007-fcb6-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c0000000-fcb6-15b4-9c44-c0a80b700000.xml#mc0000000-fcb6-15b4-9c44-c0a80b700000">
+</Link>
+<WhereClause mdsid="m0000000f-01f4-0000-e2bb-e1ad00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000010-01f4-0000-692e-4e6200000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000011-01f4-0000-39f8-375000000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

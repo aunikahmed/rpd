@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mc00001bd-8495-1589-8a27-c0a8050e0000" name="GER_RESTRAINT_BEHAVIOR_DIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c00001bb-8495-1589-8a27-c0a8050e0000.xml#mc00001bb-8495-1589-8a27-c0a8050e0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-bc5e-5c5700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_RESTRAINT_BEHAVIOR_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-bc5e-5c5700000000-mc00001c7-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c00001bb-8495-1589-8a27-c0a8050e0000.xml#mc00001c7-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-54c7-ad1400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_RESTRAINT_BEHAVIOR_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-54c7-ad1400000000-mc000000a-2c2b-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-2c2b-1589-806e-c0a8050e0000.xml#mc000000a-2c2b-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-17f9-3d7900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_RESTRAINT_BEHAVIOR_DIM"."INJURY_RESTRAINT_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-17f9-3d7900000000-mc00001cb-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c00001bb-8495-1589-8a27-c0a8050e0000.xml#mc00001cb-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-a2c4-ae1200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_RESTRAINT_BEHAVIOR_DIM"."INJURY_RESTRAINT_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-a2c4-ae1200000000-mc000000e-2c2b-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-2c2b-1589-806e-c0a8050e0000.xml#mc000000e-2c2b-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-f9c2-3ff100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["GER_BMM"."GER_RESTRAINT_BEHAVIOR_DIM"."STATUS_EMERGENCY_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-f9c2-3ff100000000-mc00001e0-8495-1589-8a27-c0a8050e0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c00001bb-8495-1589-8a27-c0a8050e0000.xml#mc00001e0-8495-1589-8a27-c0a8050e0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-ad64-afce00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_RESTRAINT_BEHAVIOR_DIM"."STATUS_EMERGENCY_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-ad64-afce00000000-mc0000023-2c2b-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-2c2b-1589-806e-c0a8050e0000.xml#mc0000023-2c2b-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c0000000-2c2b-1589-806e-c0a8050e0000.xml#mc0000000-2c2b-1589-806e-c0a8050e0000">
+</Link>
+<WhereClause mdsid="m00000007-01f4-0000-0774-793c00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000008-01f4-0000-facd-10ed00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000009-01f4-0000-d8d3-514b00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

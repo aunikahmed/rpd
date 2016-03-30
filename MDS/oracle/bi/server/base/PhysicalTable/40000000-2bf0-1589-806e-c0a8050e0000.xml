@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000000-2bf0-1589-806e-c0a8050e0000" name="GER_EVENT_INJURY_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m40000116-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m40000006-2bf0-1589-806e-c0a8050e0000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m4000011c-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000c-2bf0-1589-806e-c0a8050e0000" name="INJURY_CAUSE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m40000122-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000014-2bf0-1589-806e-c0a8050e0000" name="INJURY_SEVERITY_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m4000012a-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000015-2bf0-1589-806e-c0a8050e0000" name="INJURY_TIME" dataType="TIMESTAMP" scale="6" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m4000012b-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000018-2bf0-1589-806e-c0a8050e0000" name="INJURY_TYPE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m4000012e-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001c-2bf0-1589-806e-c0a8050e0000" name="LOCATION_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m40000132-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000021-2bf0-1589-806e-c0a8050e0000" name="TREATMENT_BY" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m40000137-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000025-2bf0-1589-806e-c0a8050e0000" name="TREATMENT_TIME" dataType="TIMESTAMP" scale="6" precision="255" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000116-2bb0-1589-806e-c0a8050e0000.xml#m4000013b-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="mc0000000-8429-1589-8a27-c0a8050e0000" name="GER_EVENT_INJURY_DIM_Key">
+<RefColumns>
+<RefColumn refId="mc0000000-8429-1589-8a27-c0a8050e0000-m40000006-2bf0-1589-806e-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#m40000006-2bf0-1589-806e-c0a8050e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalComplexJoin mdsid="m00000007-058b-1590-9b67-c0a834b20000" name="RelationshipISP_DIMISP_FACT_ALIAAS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="Inner" logicalTable1Ref="/oracle/bi/server/base/LogicalTable/8000003c-0589-1590-9b67-c0a834b20000.xml#m8000003c-0589-1590-9b67-c0a834b20000" multiplicity1="n..n" isAggregate1="false" logicalTable2Ref="/oracle/bi/server/base/LogicalTable/80000014-0588-1590-9b67-c0a834b20000.xml#m80000014-0588-1590-9b67-c0a834b20000" multiplicity2="0..1" isAggregate2="false">
+</LogicalComplexJoin>

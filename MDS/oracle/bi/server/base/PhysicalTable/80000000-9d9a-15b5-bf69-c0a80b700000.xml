@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m80000000-9d9a-15b5-bf69-c0a80b700000" name="IDF_DIAGNOSIS_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000000-9d96-15b5-bf69-c0a80b700000">
+<PhysicalColumn mdsid="m80000001-9d9a-15b5-bf69-c0a80b700000" name="AGE_AT_EVENT" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000001-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000002-9d9a-15b5-bf69-c0a80b700000" name="AGE_RANGE" dataType="VARCHAR" precision="7" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000002-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000003-9d9a-15b5-bf69-c0a80b700000" name="DIAGNOSIS_DATE" dataType="TIMESTAMP" scale="6" precision="7" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000003-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000004-9d9a-15b5-bf69-c0a80b700000" name="DSM5_DESCRIPTION" dataType="VARCHAR" precision="256" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000004-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000005-9d9a-15b5-bf69-c0a80b700000" name="ICD10_DESCRIPTION" dataType="VARCHAR" precision="512" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000005-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000006-9d9a-15b5-bf69-c0a80b700000" name="ICD9_DESCRIPTION" dataType="VARCHAR" precision="280" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000006-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000007-9d9a-15b5-bf69-c0a80b700000" name="ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000007-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000008-9d9a-15b5-bf69-c0a80b700000" name="RESOLVED" dataType="INT" precision="1" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d96-15b5-bf69-c0a80b700000.xml#m80000008-9d96-15b5-bf69-c0a80b700000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m00000000-9da9-15b5-bf69-c0a80b700000" name="IDF_DIAGNOSIS_DIM_Key">
+<RefColumns>
+<RefColumn refId="m00000000-9da9-15b5-bf69-c0a80b700000-m80000007-9d9a-15b5-bf69-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-9d9a-15b5-bf69-c0a80b700000.xml#m80000007-9d9a-15b5-bf69-c0a80b700000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

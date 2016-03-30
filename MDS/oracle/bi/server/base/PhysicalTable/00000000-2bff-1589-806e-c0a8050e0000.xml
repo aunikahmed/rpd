@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000000-2bff-1589-806e-c0a8050e0000" name="GER_EVENT_MER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/4000013c-2bb0-1589-806e-c0a8050e0000.xml#m4000013c-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m00000002-2bff-1589-806e-c0a8050e0000" name="ATTENTION_REQUIRED_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000013c-2bb0-1589-806e-c0a8050e0000.xml#m4000013e-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-2bff-1589-806e-c0a8050e0000" name="DISCOVERED_DATE" dataType="TIMESTAMP" scale="6" precision="2" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000013c-2bb0-1589-806e-c0a8050e0000.xml#m40000140-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000009-2bff-1589-806e-c0a8050e0000" name="ERROR_CAUSE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000013c-2bb0-1589-806e-c0a8050e0000.xml#m40000145-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000d-2bff-1589-806e-c0a8050e0000" name="ERROR_TYPE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000013c-2bb0-1589-806e-c0a8050e0000.xml#m40000149-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000e-2bff-1589-806e-c0a8050e0000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000013c-2bb0-1589-806e-c0a8050e0000.xml#m4000014a-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000001a-2bff-1589-806e-c0a8050e0000" name="SEVERITY" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000013c-2bb0-1589-806e-c0a8050e0000.xml#m40000156-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m80000000-8421-1589-8a27-c0a8050e0000" name="GER_EVENT_MER_DIM_Key">
+<RefColumns>
+<RefColumn refId="m80000000-8421-1589-8a27-c0a8050e0000-m0000000e-2bff-1589-806e-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m0000000e-2bff-1589-806e-c0a8050e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

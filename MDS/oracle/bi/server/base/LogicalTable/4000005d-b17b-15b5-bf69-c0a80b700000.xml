@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m4000005d-b17b-15b5-bf69-c0a80b700000" name="PROGRAM_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-b175-15b5-bf69-c0a80b700000.xml#m00000000-b175-15b5-bf69-c0a80b700000">
+<LogicalColumn mdsid="m40000060-b17b-15b5-bf69-c0a80b700000" name="ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:230061456916136">
+<Expr mdsid="m00000001-01f4-0000-c42f-685e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."PROGRAM_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-c42f-685e00000000-m40000002-2d76-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m40000002-2d76-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000061-b17b-15b5-bf69-c0a80b700000" name="NAME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:230071456916136">
+<Expr mdsid="m00000002-01f4-0000-76a1-e77500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."PROGRAM_DIM"."NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-76a1-e77500000000-m40000004-2d76-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m40000004-2d76-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000062-b17b-15b5-bf69-c0a80b700000" name="PROGRAM_TYPE_NAME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:230081456916136">
+<Expr mdsid="m00000003-01f4-0000-3561-3f5b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."PROGRAM_DIM"."PROGRAM_TYPE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-3561-3f5b00000000-m4000000f-2d76-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m4000000f-2d76-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000063-b17b-15b5-bf69-c0a80b700000" name="PROGRAM_TYPE_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:230091456916136">
+<Expr mdsid="m00000004-01f4-0000-1f42-0d7600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."PROGRAM_DIM"."PROGRAM_TYPE_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-1f42-0d7600000000-m40000010-2d76-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m40000010-2d76-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m40000064-b17b-15b5-bf69-c0a80b700000" name="PROGRAM_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000064-b17b-15b5-bf69-c0a80b700000-m40000060-b17b-15b5-bf69-c0a80b700000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000005d-b17b-15b5-bf69-c0a80b700000.xml#m40000060-b17b-15b5-bf69-c0a80b700000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m4000005d-b17b-15b5-bf69-c0a80b700000-m4000005f-b17b-15b5-bf69-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/4000005f-b17b-15b5-bf69-c0a80b700000.xml#m4000005f-b17b-15b5-bf69-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

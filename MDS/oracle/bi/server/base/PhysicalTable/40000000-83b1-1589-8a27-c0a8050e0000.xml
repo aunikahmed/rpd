@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000000-83b1-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m0000000b-8369-1589-8a27-c0a8050e0000">
+<PhysicalColumn mdsid="m40000002-83b1-1589-8a27-c0a8050e0000" name="AGE_RANGE" dataType="VARCHAR" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m0000000d-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-83b1-1589-8a27-c0a8050e0000" name="CLIENT_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m0000000e-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-83b1-1589-8a27-c0a8050e0000" name="DEATH_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m0000000f-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-83b1-1589-8a27-c0a8050e0000" name="EVENT_OTHER_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000010-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000006-83b1-1589-8a27-c0a8050e0000" name="EVENT_TIME_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000011-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000007-83b1-1589-8a27-c0a8050e0000" name="EVENT_TYPE" dataType="VARCHAR" precision="255" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000012-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000008-83b1-1589-8a27-c0a8050e0000" name="GER_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000013-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000009-83b1-1589-8a27-c0a8050e0000" name="ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000014-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000a-83b1-1589-8a27-c0a8050e0000" name="INJURY_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000015-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000b-83b1-1589-8a27-c0a8050e0000" name="MER_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000016-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000c-83b1-1589-8a27-c0a8050e0000" name="NOTIF_LEVEL" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000017-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000d-83b1-1589-8a27-c0a8050e0000" name="PROGRAM_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000018-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000e-83b1-1589-8a27-c0a8050e0000" name="PROGRAM_TYPE_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m00000019-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000f-83b1-1589-8a27-c0a8050e0000" name="PROVIDER_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m0000001a-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000010-83b1-1589-8a27-c0a8050e0000" name="RESTRAINT_BEHAVIOR_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m0000001b-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000011-83b1-1589-8a27-c0a8050e0000" name="RESTRAINT_OTHER_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/0000000b-8369-1589-8a27-c0a8050e0000.xml#m0000001c-8369-1589-8a27-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m80000000-8417-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2c34-1589-806e-c0a8050e0000.xml#mc0000000-841c-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m80000000-8417-1589-8a27-c0a8050e0000-m40000011-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000011-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-841d-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m80000000-8421-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m00000000-841d-1589-8a27-c0a8050e0000-m4000000b-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m4000000b-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-8422-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2bf0-1589-806e-c0a8050e0000.xml#mc0000000-8429-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m40000000-8422-1589-8a27-c0a8050e0000-m4000000a-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m4000000a-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-842a-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-2c0c-1589-806e-c0a8050e0000.xml#m00000000-8432-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m40000000-842a-1589-8a27-c0a8050e0000-m40000005-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000005-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-8432-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#4" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-2be6-1589-806e-c0a8050e0000.xml#m00000000-843e-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m80000000-8432-1589-8a27-c0a8050e0000-m40000004-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000004-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-8440-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#5" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-2c2b-1589-806e-c0a8050e0000.xml#m80000000-8443-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m00000000-8440-1589-8a27-c0a8050e0000-m40000010-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000010-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-8448-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#6" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-2bd7-1589-806e-c0a8050e0000.xml#mc0000000-844c-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m80000000-8448-1589-8a27-c0a8050e0000-m40000008-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000008-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-844e-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#7" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-83e0-1589-8a27-c0a8050e0000.xml#m80000000-8457-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-844e-1589-8a27-c0a8050e0000-m40000006-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000006-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-8469-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#8" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m00000000-846e-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-8469-1589-8a27-c0a8050e0000-m40000003-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000003-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-846e-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#9" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m00000000-8471-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-846e-1589-8a27-c0a8050e0000-m4000000d-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m4000000d-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-8471-1589-8a27-c0a8050e0000" name="GER_FACT_ALIAS_Foreign Key#10" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-2d90-1589-806e-c0a8050e0000.xml#m80000000-2de7-1589-806e-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="mc0000000-8471-1589-8a27-c0a8050e0000-m4000000f-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m4000000f-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-ccc0-1589-8620-c0a834b20000" name="GER_FACT_ALIAS_Foreign Key#11" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-cc9e-1589-8620-c0a834b20000.xml#mc0000000-ccc3-1589-8620-c0a834b20000">
+<RefColumns>
+<RefColumn refId="m00000000-ccc0-1589-8620-c0a834b20000-m40000008-83b1-1589-8a27-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-83b1-1589-8a27-c0a8050e0000.xml#m40000008-83b1-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

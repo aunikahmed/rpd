@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationCatalog mdsid="m00000009-e7b7-159b-b79c-c0a834380000" name="USAGE_TRACKING" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000001-e6eb-159b-b79c-c0a834380000.xml#mc0000001-e6eb-159b-b79c-c0a834380000">
+<Alias name="UsageTracking"/>
+<Alias name="UsageTrackingBMM"/>
+<RefTables>
+<RefPresentationTable refId="m00000009-e7b7-159b-b79c-c0a834380000-m0000000d-e7b7-159b-b79c-c0a834380000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000000d-e7b7-159b-b79c-c0a834380000.xml#m0000000d-e7b7-159b-b79c-c0a834380000"/>
+<RefPresentationTable refId="m00000009-e7b7-159b-b79c-c0a834380000-m0000000a-e7b7-159b-b79c-c0a834380000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000000a-e7b7-159b-b79c-c0a834380000.xml#m0000000a-e7b7-159b-b79c-c0a834380000"/>
+<RefPresentationTable refId="m00000009-e7b7-159b-b79c-c0a834380000-m0000000b-e7b7-159b-b79c-c0a834380000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000000b-e7b7-159b-b79c-c0a834380000.xml#m0000000b-e7b7-159b-b79c-c0a834380000"/>
+<RefPresentationTable refId="m00000009-e7b7-159b-b79c-c0a834380000-m0000000c-e7b7-159b-b79c-c0a834380000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000000c-e7b7-159b-b79c-c0a834380000.xml#m0000000c-e7b7-159b-b79c-c0a834380000"/>
+</RefTables>
+</PresentationCatalog>

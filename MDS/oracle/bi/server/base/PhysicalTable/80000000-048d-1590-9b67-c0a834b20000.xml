@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m80000000-048d-1590-9b67-c0a834b20000" name="ISP_QA_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/80000000-0467-1590-9b67-c0a834b20000.xml#m80000000-0467-1590-9b67-c0a834b20000">
+<PhysicalColumn mdsid="m80000001-048d-1590-9b67-c0a834b20000" name="DESCRIPTION" dataType="VARCHAR" precision="256" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-0467-1590-9b67-c0a834b20000.xml#m80000001-0467-1590-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000002-048d-1590-9b67-c0a834b20000" name="TYPE_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-0467-1590-9b67-c0a834b20000.xml#m80000002-0467-1590-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000003-048d-1590-9b67-c0a834b20000" name="TYPE_NAME" dataType="VARCHAR" precision="120" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000000-0467-1590-9b67-c0a834b20000.xml#m80000003-0467-1590-9b67-c0a834b20000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m00000000-0560-1590-9b67-c0a834b20000" name="ISP_QA_DIM_Key">
+<RefColumns>
+<RefColumn refId="m00000000-0560-1590-9b67-c0a834b20000-m80000002-048d-1590-9b67-c0a834b20000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-048d-1590-9b67-c0a834b20000.xml#m80000002-048d-1590-9b67-c0a834b20000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

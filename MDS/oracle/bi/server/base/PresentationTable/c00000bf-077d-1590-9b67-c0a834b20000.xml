@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc00000bf-077d-1590-9b67-c0a834b20000" name="CLIENT_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c00000be-077d-1590-9b67-c0a834b20000.xml#mc00000be-077d-1590-9b67-c0a834b20000">
+<PresentationColumn mdsid="m80000074-077d-1590-9b67-c0a834b20000" name="FIRST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000077-0588-1590-9b67-c0a834b20000.xml#mc00000a9-0588-1590-9b67-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000004-077d-1590-9b67-c0a834b20000" name="LAST_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000077-0588-1590-9b67-c0a834b20000.xml#mc00000be-0588-1590-9b67-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000000-d7d2-15a6-b586-c0a834380000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000077-0588-1590-9b67-c0a834b20000.xml#mc00000b4-0588-1590-9b67-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000000-7b62-15a9-8927-c0a834b20000" name="Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000077-0588-1590-9b67-c0a834b20000.xml#m80000001-7b11-15a9-8927-c0a834b20000">
+</PresentationColumn>
+</PresentationTable>

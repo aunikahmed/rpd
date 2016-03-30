@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mc0000146-8495-1589-8a27-c0a8050e0000" name="GER_EVENT_MER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-2e78-1589-806e-c0a8050e0000.xml#m80000000-2e78-1589-806e-c0a8050e0000">
+<LogicalColumn mdsid="mc000014a-8495-1589-8a27-c0a8050e0000" name="ATTENTION_REQUIRED_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35601445335639">
+<Expr mdsid="m00000001-01f4-0000-b908-fe7f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_MER_DIM"."ATTENTION_REQUIRED_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-b908-fe7f00000000-m00000002-2bff-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m00000002-2bff-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc000014c-8495-1589-8a27-c0a8050e0000" name="DISCOVERED_DATE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35621445335639">
+<Expr mdsid="m00000002-01f4-0000-8af7-077f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_MER_DIM"."DISCOVERED_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-8af7-077f00000000-m00000004-2bff-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m00000004-2bff-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000151-8495-1589-8a27-c0a8050e0000" name="ERROR_CAUSE_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35671445335639">
+<Expr mdsid="m00000003-01f4-0000-0fe5-7e9900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_MER_DIM"."ERROR_CAUSE_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-0fe5-7e9900000000-m00000009-2bff-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m00000009-2bff-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000155-8495-1589-8a27-c0a8050e0000" name="ERROR_TYPE_TEXT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35711445335639">
+<Expr mdsid="m00000004-01f4-0000-2be7-ea7e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_MER_DIM"."ERROR_TYPE_TEXT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-2be7-ea7e00000000-m0000000d-2bff-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m0000000d-2bff-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000156-8495-1589-8a27-c0a8050e0000" name="ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35721445335639">
+<Expr mdsid="m00000005-01f4-0000-2f45-d9db00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_MER_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-2f45-d9db00000000-m0000000e-2bff-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m0000000e-2bff-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000162-8495-1589-8a27-c0a8050e0000" name="SEVERITY" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:35841445335639">
+<Expr mdsid="m00000006-01f4-0000-1a84-8e7a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."GER_EVENT_MER_DIM"."SEVERITY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-1a84-8e7a00000000-m0000001a-2bff-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-2bff-1589-806e-c0a8050e0000.xml#m0000001a-2bff-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="mc0000163-8495-1589-8a27-c0a8050e0000" name="GER_EVENT_MER_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="mc0000163-8495-1589-8a27-c0a8050e0000-mc0000156-8495-1589-8a27-c0a8050e0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000146-8495-1589-8a27-c0a8050e0000.xml#mc0000156-8495-1589-8a27-c0a8050e0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mc0000146-8495-1589-8a27-c0a8050e0000-mc0000148-8495-1589-8a27-c0a8050e0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c0000148-8495-1589-8a27-c0a8050e0000.xml#mc0000148-8495-1589-8a27-c0a8050e0000"/>
+</RefTableSources>
+</LogicalTable>

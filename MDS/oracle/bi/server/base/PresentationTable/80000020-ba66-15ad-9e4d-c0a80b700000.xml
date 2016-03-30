@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000020-ba66-15ad-9e4d-c0a80b700000" name="PROVIDER_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/8000001e-ba66-15ad-9e4d-c0a80b700000.xml#m8000001e-ba66-15ad-9e4d-c0a80b700000">
+<PresentationColumn mdsid="m8000000d-ba66-15ad-9e4d-c0a80b700000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m40000003-c798-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000e-ba66-15ad-9e4d-c0a80b700000" name="NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m40000004-c798-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000f-ba66-15ad-9e4d-c0a80b700000" name="STATUS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m40000005-c798-15ac-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000010-ba66-15ad-9e4d-c0a80b700000" name="OVERSIGHT_PROV_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#mc0000002-b50a-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000011-ba66-15ad-9e4d-c0a80b700000" name="OVERSIGHT_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m40000002-b50b-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000012-ba66-15ad-9e4d-c0a80b700000" name="OVERSIGHT_PROV_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m00000002-b888-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000013-ba66-15ad-9e4d-c0a80b700000" name="CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#mc0000002-b8fa-15ad-9e4d-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-0e33-15ae-9c58-c0a80b700000" name="CITY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m4000000a-0e31-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000003-0e33-15ae-9c58-c0a80b700000" name="DEMO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m4000000b-0e31-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-0e33-15ae-9c58-c0a80b700000" name="STATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m40000008-0e31-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000002-0e33-15ae-9c58-c0a80b700000" name="TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-c798-15ac-9e4d-c0a80b700000.xml#m40000009-0e31-15ae-9c58-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

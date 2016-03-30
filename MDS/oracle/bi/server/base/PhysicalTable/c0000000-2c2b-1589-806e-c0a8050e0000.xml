@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc0000000-2c2b-1589-806e-c0a8050e0000" name="GER_RESTRAINT_BEHAVIOR_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000174-2bb0-1589-806e-c0a8050e0000.xml#m40000174-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="mc000000a-2c2b-1589-806e-c0a8050e0000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000174-2bb0-1589-806e-c0a8050e0000.xml#m4000017e-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc000000e-2c2b-1589-806e-c0a8050e0000" name="INJURY_RESTRAINT_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000174-2bb0-1589-806e-c0a8050e0000.xml#m40000182-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000023-2c2b-1589-806e-c0a8050e0000" name="STATUS_EMERGENCY_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000174-2bb0-1589-806e-c0a8050e0000.xml#m40000197-2bb0-1589-806e-c0a8050e0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m80000000-8443-1589-8a27-c0a8050e0000" name="GER_RESTRAINT_BEHAVIOR_DIM_Key">
+<RefColumns>
+<RefColumn refId="m80000000-8443-1589-8a27-c0a8050e0000-mc000000a-2c2b-1589-806e-c0a8050e0000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-2c2b-1589-806e-c0a8050e0000.xml#mc000000a-2c2b-1589-806e-c0a8050e0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m4000000e-f8d7-15b4-9c44-c0a80b700000" name="HLTH_VACCINE_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000011-f769-15b4-9c44-c0a80b700000.xml#m40000011-f769-15b4-9c44-c0a80b700000">
+<PresentationColumn mdsid="m4000000c-f8d7-15b4-9c44-c0a80b700000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000010-f8d5-15b4-9c44-c0a80b700000.xml#m40000014-f8d5-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000b-f8d7-15b4-9c44-c0a80b700000" name="GENERIC_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000010-f8d5-15b4-9c44-c0a80b700000.xml#m40000013-f8d5-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000d-f8d7-15b4-9c44-c0a80b700000" name="VACCINE_CODE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000010-f8d5-15b4-9c44-c0a80b700000.xml#m40000015-f8d5-15b4-9c44-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

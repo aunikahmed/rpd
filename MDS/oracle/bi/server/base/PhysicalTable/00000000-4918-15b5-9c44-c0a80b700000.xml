@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000000-4918-15b5-9c44-c0a80b700000" name="HLTH_RESPIRATORY_TREATMENT_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000000-490e-15b5-9c44-c0a80b700000">
+<PhysicalColumn mdsid="m00000001-4918-15b5-9c44-c0a80b700000" name="AGE_AT_EVENT" dataType="DOUBLE" precision="22" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000001-490e-15b5-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-4918-15b5-9c44-c0a80b700000" name="AGE_RANGE" dataType="VARCHAR" precision="7" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000002-490e-15b5-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000003-4918-15b5-9c44-c0a80b700000" name="EVENT_DATE" dataType="DATETIME" precision="7" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000003-490e-15b5-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-4918-15b5-9c44-c0a80b700000" name="ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000004-490e-15b5-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000005-4918-15b5-9c44-c0a80b700000" name="NOTIF_LEVEL" dataType="INT" precision="1" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000005-490e-15b5-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000006-4918-15b5-9c44-c0a80b700000" name="STATUS" dataType="INT" precision="1" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000006-490e-15b5-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000007-4918-15b5-9c44-c0a80b700000" name="TEST" dataType="INT" precision="1" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/c0000000-490e-15b5-9c44-c0a80b700000.xml#mc0000007-490e-15b5-9c44-c0a80b700000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m40000000-4932-15b5-9c44-c0a80b700000" name="HLTH_RESPIRATORY_TREATMENT_DIM_Key">
+<RefColumns>
+<RefColumn refId="m40000000-4932-15b5-9c44-c0a80b700000-m00000004-4918-15b5-9c44-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-4918-15b5-9c44-c0a80b700000.xml#m00000004-4918-15b5-9c44-c0a80b700000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

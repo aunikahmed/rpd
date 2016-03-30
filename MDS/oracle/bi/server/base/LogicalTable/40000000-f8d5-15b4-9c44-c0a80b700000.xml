@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m40000000-f8d5-15b4-9c44-c0a80b700000" name="HLTH_IMMUNIZATION_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-f736-15b4-9c44-c0a80b700000.xml#m00000000-f736-15b4-9c44-c0a80b700000">
+<LogicalColumn mdsid="m40000003-f8d5-15b4-9c44-c0a80b700000" name="CLIENT_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:183331456726884">
+<Expr mdsid="m00000001-01f4-0000-fa8d-cca100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_IMMUNIZATION_DIM"."CLIENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-fa8d-cca100000000-m80000001-f835-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-f835-15b4-9c44-c0a80b700000.xml#m80000001-f835-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000004-f8d5-15b4-9c44-c0a80b700000" name="ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:183341456726884">
+<Expr mdsid="m00000002-01f4-0000-61ed-6a4c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_IMMUNIZATION_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-61ed-6a4c00000000-m80000002-f835-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-f835-15b4-9c44-c0a80b700000.xml#m80000002-f835-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000005-f8d5-15b4-9c44-c0a80b700000" name="NOTIF_LEVEL" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:183351456726884">
+<Expr mdsid="m00000003-01f4-0000-235b-49a800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_IMMUNIZATION_DIM"."NOTIF_LEVEL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-235b-49a800000000-m80000003-f835-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-f835-15b4-9c44-c0a80b700000.xml#m80000003-f835-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000006-f8d5-15b4-9c44-c0a80b700000" name="STATUS" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:183361456726884">
+<Expr mdsid="m00000004-01f4-0000-cba5-412500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_IMMUNIZATION_DIM"."STATUS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-cba5-412500000000-m80000004-f835-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-f835-15b4-9c44-c0a80b700000.xml#m80000004-f835-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000007-f8d5-15b4-9c44-c0a80b700000" name="TEST" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:183371456726884">
+<Expr mdsid="m00000005-01f4-0000-0713-435700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_IMMUNIZATION_DIM"."TEST"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-0713-435700000000-m80000005-f835-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-f835-15b4-9c44-c0a80b700000.xml#m80000005-f835-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000008-f8d5-15b4-9c44-c0a80b700000" name="UPDATE_COUNT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:183381456726884">
+<Expr mdsid="m00000006-01f4-0000-a57b-4a7800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."HLTH_IMMUNIZATION_DIM"."UPDATE_COUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-a57b-4a7800000000-m80000006-f835-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-f835-15b4-9c44-c0a80b700000.xml#m80000006-f835-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m40000009-f8d5-15b4-9c44-c0a80b700000" name="HLTH_IMMUNIZATION_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000009-f8d5-15b4-9c44-c0a80b700000-m40000004-f8d5-15b4-9c44-c0a80b700000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-f8d5-15b4-9c44-c0a80b700000.xml#m40000004-f8d5-15b4-9c44-c0a80b700000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m40000000-f8d5-15b4-9c44-c0a80b700000-m40000002-f8d5-15b4-9c44-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000002-f8d5-15b4-9c44-c0a80b700000.xml#m40000002-f8d5-15b4-9c44-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

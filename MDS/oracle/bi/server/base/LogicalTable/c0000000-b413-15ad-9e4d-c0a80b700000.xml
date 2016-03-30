@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mc0000000-b413-15ad-9e4d-c0a80b700000" name="CLIENT_COUNT_BY_PGM_FACT" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000000-c595-15ac-9e4d-c0a80b700000.xml#mc0000000-c595-15ac-9e4d-c0a80b700000">
+<LogicalColumn mdsid="mc0000003-b413-15ad-9e4d-c0a80b700000" name="PERIOD_TYPE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:165311454821491">
+<Expr mdsid="m00000001-01f4-0000-874a-2d9b00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_COUNT_BY_PGM_FACT_ALIAS"."PERIOD_TYPE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-874a-2d9b00000000-m40000001-c4e8-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000001-c4e8-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000004-b413-15ad-9e4d-c0a80b700000" name="PGM_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:165321454821491">
+<Expr mdsid="m00000002-01f4-0000-6d07-2e0900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_COUNT_BY_PGM_FACT_ALIAS"."PGM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-6d07-2e0900000000-m40000002-c4e8-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000002-c4e8-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000005-b413-15ad-9e4d-c0a80b700000" name="PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:165331454821491">
+<Expr mdsid="m00000003-01f4-0000-6059-309a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_COUNT_BY_PGM_FACT_ALIAS"."PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-6059-309a00000000-m40000003-c4e8-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000003-c4e8-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000006-b413-15ad-9e4d-c0a80b700000" name="TIME_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:165341454821491">
+<Expr mdsid="m00000004-01f4-0000-305e-e74500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_COUNT_BY_PGM_FACT_ALIAS"."TIME_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-305e-e74500000000-m40000004-c4e8-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000004-c4e8-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc0000007-b413-15ad-9e4d-c0a80b700000" name="TOTAL_CLIENT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:165351454821491">
+<Expr mdsid="m00000005-01f4-0000-c377-771c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_COUNT_BY_PGM_FACT_ALIAS"."TOTAL_CLIENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-c377-771c00000000-m40000005-c4e8-15ac-9e4d-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000005-c4e8-15ac-9e4d-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="mc0000000-b413-15ad-9e4d-c0a80b700000-mc0000002-b413-15ad-9e4d-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c0000002-b413-15ad-9e4d-c0a80b700000.xml#mc0000002-b413-15ad-9e4d-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

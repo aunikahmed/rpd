@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc000005f-cafc-15a6-b586-c0a834380000" name="GER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
+<PresentationColumn mdsid="mc0000053-cafc-15a6-b586-c0a834380000" name="ABOUSE_TYPE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000003-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000056-cafc-15a6-b586-c0a834380000" name="ABUSE_SUSPECTED" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000006-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000057-cafc-15a6-b586-c0a834380000" name="ABUSE_SUSPECTED_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000007-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000002-cafc-15a6-b586-c0a834380000" name="CREATE_APPROVE_INTERVAL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000011-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-cafc-15a6-b586-c0a834380000" name="CREATE_SUBMISSION_INTERVAL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000012-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000f-cafc-15a6-b586-c0a834380000" name="EXPLOITATION_SUSPECT_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc000001e-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000010-cafc-15a6-b586-c0a834380000" name="EXPLOITATION_SUSPECTED" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc000001f-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000012-cafc-15a6-b586-c0a834380000" name="EXPLOITATION_TYPE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000021-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000022-cafc-15a6-b586-c0a834380000" name="NEGLECT_SUSPECT_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000031-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000023-cafc-15a6-b586-c0a834380000" name="NEGLECT_SUSPECTED" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000032-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000025-cafc-15a6-b586-c0a834380000" name="NEGLECT_TYPE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000034-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000046-cafc-15a6-b586-c0a834380000" name="SUBMISSION_APPROVE_INTERVAL" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000055-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000052-cafc-15a6-b586-c0a834380000" name="CREATE_APPROVAL_INTERVAL_RANGE_INT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#mc0000001-61e7-1595-a15a-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000000-aca4-15ae-bb1f-c0a80b700000" name="CREATE_APPROVAL_INTERVAL_RANGE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000000-8495-1589-8a27-c0a8050e0000.xml#m40000000-1b58-158b-8620-c0a834b20000">
+</PresentationColumn>
+</PresentationTable>

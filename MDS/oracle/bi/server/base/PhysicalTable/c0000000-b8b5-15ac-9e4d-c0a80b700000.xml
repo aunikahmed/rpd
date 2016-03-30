@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc0000000-b8b5-15ac-9e4d-c0a80b700000" name="SIMPLE_CLIENT_FACT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="mc0000001-b8b5-15ac-9e4d-c0a80b700000" name="CLIENT_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000002-b8b5-15ac-9e4d-c0a80b700000" name="PGM_ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000003-b8b5-15ac-9e4d-c0a80b700000" name="PROV_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

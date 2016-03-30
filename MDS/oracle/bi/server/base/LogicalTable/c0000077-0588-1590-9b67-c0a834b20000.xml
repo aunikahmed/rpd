@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="mc0000077-0588-1590-9b67-c0a834b20000" name="CLIENT_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000000-057d-1590-9b67-c0a834b20000.xml#mc0000000-057d-1590-9b67-c0a834b20000">
+<LogicalColumn mdsid="mc00000a9-0588-1590-9b67-c0a834b20000" name="FIRST_NAME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:132001447042654">
+<Expr mdsid="m00000001-01f4-0000-a8e0-74e000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_DIM"."FIRST_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-a8e0-74e000000000-m40000030-2d61-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m40000030-2d61-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc00000b4-0588-1590-9b67-c0a834b20000" name="ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:132111447042654">
+<Expr mdsid="m00000002-01f4-0000-c508-320200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-c508-320200000000-m4000003b-2d61-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m4000003b-2d61-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="mc00000be-0588-1590-9b67-c0a834b20000" name="LAST_NAME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:132211447042654">
+<Expr mdsid="m00000003-01f4-0000-4418-7e9c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."CLIENT_DIM"."LAST_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-4418-7e9c00000000-m40000045-2d61-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m40000045-2d61-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000001-7b11-15a9-8927-c0a834b20000" name="Name" isDerived="true" isWriteable="false">
+<Expr mdsid="m00000004-01f4-0000-5af1-837100000000" name="Expr">
+<ExprText><![CDATA["%1"|| ', '||"%2"  ]]></ExprText>
+<ExprTextDesc><![CDATA["ISP_BMM_V1"."CLIENT_DIM"."LAST_NAME"|| ', '||"ISP_BMM_V1"."CLIENT_DIM"."FIRST_NAME"  ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-5af1-837100000000-mc00000be-0588-1590-9b67-c0a834b20000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000077-0588-1590-9b67-c0a834b20000.xml#mc00000be-0588-1590-9b67-c0a834b20000"/>
+<RefObject refId="m00000004-01f4-0000-5af1-837100000000-mc00000a9-0588-1590-9b67-c0a834b20000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000077-0588-1590-9b67-c0a834b20000.xml#mc00000a9-0588-1590-9b67-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mError" name="AD_3900:152571453714849">
+<Expr mdsid="m00000005-01f4-0000-da45-aeeb00000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m00000034-0589-1590-9b67-c0a834b20000" name="CLIENT_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000034-0589-1590-9b67-c0a834b20000-mc00000b4-0588-1590-9b67-c0a834b20000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000077-0588-1590-9b67-c0a834b20000.xml#mc00000b4-0588-1590-9b67-c0a834b20000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="mc0000077-0588-1590-9b67-c0a834b20000-mc0000079-0588-1590-9b67-c0a834b20000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/c0000079-0588-1590-9b67-c0a834b20000.xml#mc0000079-0588-1590-9b67-c0a834b20000"/>
+</RefTableSources>
+</LogicalTable>

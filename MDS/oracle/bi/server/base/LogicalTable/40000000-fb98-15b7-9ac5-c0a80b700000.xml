@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m40000000-fb98-15b7-9ac5-c0a80b700000" name="FACT_IMMUNIZATION_VACCINE_ALIAS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-f736-15b4-9c44-c0a80b700000.xml#m00000000-f736-15b4-9c44-c0a80b700000">
+<LogicalColumn mdsid="m40000003-fb98-15b7-9ac5-c0a80b700000" name="AGE_AT_EVENT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235321457516175">
+<Expr mdsid="m00000001-01f4-0000-c6ea-201800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."AGE_AT_EVENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-c6ea-201800000000-m40000001-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000001-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000004-fb98-15b7-9ac5-c0a80b700000" name="AGE_RANGE" isWriteable="false" customSortOrderRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m00000000-fdc0-15b7-9ac5-c0a80b700000">
+<AttrDefn mdsid="mError" name="AD_3900:235331457516175">
+<Expr mdsid="m00000002-01f4-0000-98e4-51b500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."AGE_RANGE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-98e4-51b500000000-m40000002-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000002-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000005-fb98-15b7-9ac5-c0a80b700000" name="CLIENT_ID" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:236211457516175" isDefault="true">
+<Expr mdsid="m00000003-01f4-0000-1ef8-df2900000000" name="Expr">
+<ExprText><![CDATA[ COUNT(DISTINCT "%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT(DISTINCT "HEALTH_TRACKING_BMM"."FACT_IMMUNIZATION_VACCINE_ALIAS"."CLIENT_ID")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-1ef8-df2900000000-m40000005-fb98-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000005-fb98-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:235341457516175">
+<Expr mdsid="m00000004-01f4-0000-2f5e-746e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."CLIENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-2f5e-746e00000000-m40000003-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000003-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000006-fb98-15b7-9ac5-c0a80b700000" name="ID" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:236191457516175" isDefault="true">
+<Expr mdsid="m00000005-01f4-0000-68f3-3f9e00000000" name="Expr">
+<ExprText><![CDATA[ COUNT("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ COUNT("HEALTH_TRACKING_BMM"."FACT_IMMUNIZATION_VACCINE_ALIAS"."ID")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-68f3-3f9e00000000-m40000006-fb98-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000006-fb98-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:235351457516175">
+<Expr mdsid="m00000006-01f4-0000-1457-01b700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-1457-01b700000000-m40000004-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000004-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000007-fb98-15b7-9ac5-c0a80b700000" name="IMMUNIZATION_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235361457516175">
+<Expr mdsid="m00000007-01f4-0000-830e-dca500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."IMMUNIZATION_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-830e-dca500000000-m40000005-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000005-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000008-fb98-15b7-9ac5-c0a80b700000" name="PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235371457516175">
+<Expr mdsid="m00000008-01f4-0000-83d2-c54f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-83d2-c54f00000000-m40000006-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000006-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000009-fb98-15b7-9ac5-c0a80b700000" name="SITE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235381457516175">
+<Expr mdsid="m00000009-01f4-0000-df6a-86e900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."SITE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-df6a-86e900000000-m40000007-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000007-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000a-fb98-15b7-9ac5-c0a80b700000" name="TIME_KEY" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235391457516175">
+<Expr mdsid="m0000000a-01f4-0000-3e6c-978500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."TIME_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-3e6c-978500000000-m40000008-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000008-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000b-fb98-15b7-9ac5-c0a80b700000" name="UPDATE_COUNT" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235401457516175">
+<Expr mdsid="m0000000b-01f4-0000-b7f2-b34500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."UPDATE_COUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-b7f2-b34500000000-m40000009-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m40000009-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000c-fb98-15b7-9ac5-c0a80b700000" name="VACCINE_DATE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235411457516175">
+<Expr mdsid="m0000000c-01f4-0000-d158-d20200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."VACCINE_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-d158-d20200000000-m4000000a-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m4000000a-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000d-fb98-15b7-9ac5-c0a80b700000" name="VACCINE_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:235421457516175">
+<Expr mdsid="m0000000d-01f4-0000-a430-df0f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_IMMUNIZATION_VACCINE_ALIAS"."VACCINE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-a430-df0f00000000-m4000000b-f841-15b4-9c44-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-f841-15b4-9c44-c0a80b700000.xml#m4000000b-f841-15b4-9c44-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m00000000-fdc0-15b7-9ac5-c0a80b700000" name="AGE_RANGE_INT" isDerived="true" isWriteable="false">
+<Expr mdsid="m0000000e-01f4-0000-2065-959600000000" name="Expr">
+<ExprText><![CDATA[CASE  "%1"   WHEN '0-3' THEN 1 
+WHEN '3-5' THEN 2
+WHEN '5-17' THEN 3
+WHEN '17-40' THEN 4
+WHEN '40-65' THEN 5
+WHEN '65-85' THEN 6
+WHEN '85+' THEN 7
+WHEN 'INVALID' THEN 8
+WHEN 'Unknown' THEN 9
+END 
+
+
+]]></ExprText>
+<ExprTextDesc><![CDATA[CASE  "HEALTH_TRACKING_BMM"."FACT_IMMUNIZATION_VACCINE_ALIAS"."AGE_RANGE"   WHEN '0-3' THEN 1 
+WHEN '3-5' THEN 2
+WHEN '5-17' THEN 3
+WHEN '17-40' THEN 4
+WHEN '40-65' THEN 5
+WHEN '65-85' THEN 6
+WHEN '85+' THEN 7
+WHEN 'INVALID' THEN 8
+WHEN 'Unknown' THEN 9
+END 
+
+
+]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-2065-959600000000-m40000004-fb98-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000004-fb98-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+<AttrDefn mdsid="mError" name="AD_3900:236731457518408">
+<Expr mdsid="m0000000f-01f4-0000-788e-b64900000000" name="Expr">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m40000000-fb98-15b7-9ac5-c0a80b700000-m40000002-fb98-15b7-9ac5-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/40000002-fb98-15b7-9ac5-c0a80b700000.xml#m40000002-fb98-15b7-9ac5-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

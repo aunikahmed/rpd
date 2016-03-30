@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000078-c986-158d-9b67-c0a834b20000" name="CLIENT_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
+<PresentationColumn mdsid="m4000000b-c986-158d-9b67-c0a834b20000" name="GENDER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000286-8495-1589-8a27-c0a8050e0000.xml#mc00002bb-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000013-c986-158d-9b67-c0a834b20000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000286-8495-1589-8a27-c0a8050e0000.xml#mc00002c3-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000053-c986-158d-9b67-c0a834b20000" name="RACE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000286-8495-1589-8a27-c0a8050e0000.xml#mc0000303-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+</PresentationTable>

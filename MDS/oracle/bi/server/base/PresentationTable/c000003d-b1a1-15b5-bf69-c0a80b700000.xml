@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc000003d-b1a1-15b5-bf69-c0a80b700000" name="FACT_BILL_DATA" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c000003c-b1a1-15b5-bf69-c0a80b700000.xml#mc000003c-b1a1-15b5-bf69-c0a80b700000">
+<Alias name="FACT_BILL_DATA_ALAIS"/>
+<PresentationColumn mdsid="mc0000000-b1a1-15b5-bf69-c0a80b700000" name="BILL_DATA_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000003-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-b1a1-15b5-bf69-c0a80b700000" name="CLIENT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000004-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000002-b1a1-15b5-bf69-c0a80b700000" name="PGM_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000005-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000003-b1a1-15b5-bf69-c0a80b700000" name="PROV_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000006-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000004-b1a1-15b5-bf69-c0a80b700000" name="TIME_KEY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000007-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-b1a1-15b5-bf69-c0a80b700000" name="TOTAL_AMOUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000008-b17b-15b5-bf69-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000001-4b24-15b9-9ac5-c0a80b700000" name="BILLABLE_UNIT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000002-4b17-15b9-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000001-4b24-15b9-9ac5-c0a80b700000" name="UNIT_COST" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#m40000002-4b16-15b9-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000001-50b2-15b9-9ac5-c0a80b700000" name="TAX_RATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-b17b-15b5-bf69-c0a80b700000.xml#mc0000000-50b0-15b9-9ac5-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

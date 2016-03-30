@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m8000000b-9aa2-15b7-9ac5-c0a80b700000" name="FACT_BILL_SERVICE_ALIAS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-b175-15b5-bf69-c0a80b700000.xml#m00000000-b175-15b5-bf69-c0a80b700000">
+<LogicalColumn mdsid="m8000000e-9aa2-15b7-9ac5-c0a80b700000" name="BILL_SERVICE_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:233791457416881">
+<Expr mdsid="m00000001-01f4-0000-bb5c-28a600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."BILL_SERVICE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-bb5c-28a600000000-m40000001-9a47-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000001-9a47-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8000000f-9aa2-15b7-9ac5-c0a80b700000" name="CLIENT_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:233801457416881">
+<Expr mdsid="m00000002-01f4-0000-63df-bec500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."CLIENT_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-63df-bec500000000-m40000002-9a47-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000002-9a47-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000010-9aa2-15b7-9ac5-c0a80b700000" name="PGM_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:233811457416881">
+<Expr mdsid="m00000003-01f4-0000-3b90-c77d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."PGM_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-3b90-c77d00000000-m40000003-9a47-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000003-9a47-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000011-9aa2-15b7-9ac5-c0a80b700000" name="PROV_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:233821457416881">
+<Expr mdsid="m00000004-01f4-0000-c4a7-5bf300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."PROV_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-c4a7-5bf300000000-m40000004-9a47-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000004-9a47-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000012-9aa2-15b7-9ac5-c0a80b700000" name="SERVICE_AUTH_AMOUNT" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:234161457416881" isDefault="true">
+<Expr mdsid="m00000005-01f4-0000-fd46-a21300000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("BILLING_BMM"."FACT_BILL_SERVICE_ALIAS"."SERVICE_AUTH_AMOUNT")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-fd46-a21300000000-m80000012-9aa2-15b7-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8000000b-9aa2-15b7-9ac5-c0a80b700000.xml#m80000012-9aa2-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:233831457416881">
+<Expr mdsid="m00000006-01f4-0000-976a-471500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."SERVICE_AUTH_AMOUNT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-976a-471500000000-m40000005-9a47-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000005-9a47-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000013-9aa2-15b7-9ac5-c0a80b700000" name="TIME_KEY" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:233841457416881">
+<Expr mdsid="m00000007-01f4-0000-3f63-77d400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."TIME_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-3f63-77d400000000-m40000006-9a47-15b7-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000006-9a47-15b7-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000a-5426-15b9-9ac5-c0a80b700000" name="REM_UNITS" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:237881457869000" isDefault="true">
+<Expr mdsid="m00000008-01f4-0000-af0b-fbcd00000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("BILLING_BMM"."FACT_BILL_SERVICE_ALIAS"."REM_UNITS")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-af0b-fbcd00000000-m4000000a-5426-15b9-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8000000b-9aa2-15b7-9ac5-c0a80b700000.xml#m4000000a-5426-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:237821457869000">
+<Expr mdsid="m00000009-01f4-0000-516d-2aed00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."REM_UNITS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-516d-2aed00000000-m40000003-5417-15b9-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000003-5417-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000b-5426-15b9-9ac5-c0a80b700000" name="TAX_RATE" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:237831457869000">
+<Expr mdsid="m0000000a-01f4-0000-adaf-a5bd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."TAX_RATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-adaf-a5bd00000000-m40000004-5417-15b9-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000004-5417-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000c-5426-15b9-9ac5-c0a80b700000" name="TOTAL_UNITS" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:237901457869000" isDefault="true">
+<Expr mdsid="m0000000b-01f4-0000-0add-a68600000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("BILLING_BMM"."FACT_BILL_SERVICE_ALIAS"."TOTAL_UNITS")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-0add-a68600000000-m4000000c-5426-15b9-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8000000b-9aa2-15b7-9ac5-c0a80b700000.xml#m4000000c-5426-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:237841457869000">
+<Expr mdsid="m0000000c-01f4-0000-b45d-37f200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."TOTAL_UNITS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-b45d-37f200000000-m40000005-5417-15b9-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000005-5417-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000d-5426-15b9-9ac5-c0a80b700000" name="UNIT_COST" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:237851457869000">
+<Expr mdsid="m0000000d-01f4-0000-09a1-cdc600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."UNIT_COST"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-09a1-cdc600000000-m40000000-5417-15b9-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000000-5417-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000e-5426-15b9-9ac5-c0a80b700000" name="USED_UNITS" isWriteable="false">
+<MeasureDefn mdsid="mError" name="Measure" isCommutative="false">
+<AggrRule mdsid="mError" name="AggRule_2050:237921457869000" isDefault="true">
+<Expr mdsid="m0000000e-01f4-0000-e6be-2a1900000000" name="Expr">
+<ExprText><![CDATA[ SUM("%1")]]></ExprText>
+<ExprTextDesc><![CDATA[ SUM("BILLING_BMM"."FACT_BILL_SERVICE_ALIAS"."USED_UNITS")]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-e6be-2a1900000000-m4000000e-5426-15b9-9ac5-c0a80b700000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/8000000b-9aa2-15b7-9ac5-c0a80b700000.xml#m4000000e-5426-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AggrRule>
+</MeasureDefn>
+<AttrDefn mdsid="mError" name="AD_3900:237861457869000">
+<Expr mdsid="m0000000f-01f4-0000-eaf5-e5c100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."FACT_BILL_SERVICE_ALIAS"."USED_UNITS"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-eaf5-e5c100000000-m40000001-5417-15b9-9ac5-c0a80b700000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-9a47-15b7-9ac5-c0a80b700000.xml#m40000001-5417-15b9-9ac5-c0a80b700000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<RefTableSources>
+<RefLogicalTableSource refId="m8000000b-9aa2-15b7-9ac5-c0a80b700000-m8000000d-9aa2-15b7-9ac5-c0a80b700000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/8000000d-9aa2-15b7-9ac5-c0a80b700000.xml#m8000000d-9aa2-15b7-9ac5-c0a80b700000"/>
+</RefTableSources>
+</LogicalTable>

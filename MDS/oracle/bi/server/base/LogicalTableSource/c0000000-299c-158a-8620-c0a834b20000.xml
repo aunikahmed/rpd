@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTableSource mdsid="mc0000000-299c-158a-8620-c0a834b20000" name="bridge_source" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/80000076-28b9-158a-8620-c0a834b20000.xml#m80000076-28b9-158a-8620-c0a834b20000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-f17b-b83200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["CLIENT_BMM"."PROVIDER_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-f17b-b83200000000-mc0000005-28b9-158a-8620-c0a834b20000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000076-28b9-158a-8620-c0a834b20000.xml#mc0000005-28b9-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-f08d-fcc500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."STATE_PROVIDER_DIM"."ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-f08d-fcc500000000-m40000001-2d96-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d96-1589-806e-c0a8050e0000.xml#m40000001-2d96-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-c9c2-498100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["CLIENT_BMM"."PROVIDER_DIM"."STATE_PROVIDER_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-c9c2-498100000000-mc0000000-29ac-158a-8620-c0a834b20000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/80000076-28b9-158a-8620-c0a834b20000.xml#mc0000000-29ac-158a-8620-c0a834b20000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-6b03-19b100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."STATE_PROVIDER_DIM"."STATE_PROVIDER_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-6b03-19b100000000-m40000002-2d96-1589-806e-c0a8050e0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/40000000-2d96-1589-806e-c0a8050e0000.xml#m40000002-2d96-1589-806e-c0a8050e0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000000-2d96-1589-806e-c0a8050e0000.xml#m40000000-2d96-1589-806e-c0a8050e0000">
+<Join type="Inner" cardinality=" ONE TO MANY" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000000-2d96-1589-806e-c0a8050e0000.xml#m40000000-2d96-1589-806e-c0a8050e0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000000-2daf-1589-806e-c0a8050e0000.xml#m40000000-2daf-1589-806e-c0a8050e0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000000-2daf-1589-806e-c0a8050e0000.xml#mc0000000-2de9-1589-806e-c0a8050e0000"/>
+</Link>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/40000000-2daf-1589-806e-c0a8050e0000.xml#m40000000-2daf-1589-806e-c0a8050e0000">
+<Join type="Inner" cardinality="MANY TO ONE" physicalTable1Ref="/oracle/bi/server/base/PhysicalTable/40000000-2daf-1589-806e-c0a8050e0000.xml#m40000000-2daf-1589-806e-c0a8050e0000" physicalTable2Ref="/oracle/bi/server/base/PhysicalTable/40000000-2d96-1589-806e-c0a8050e0000.xml#m40000000-2d96-1589-806e-c0a8050e0000" physicalJoinRef="/oracle/bi/server/base/PhysicalTable/40000000-2daf-1589-806e-c0a8050e0000.xml#mc0000000-2de9-1589-806e-c0a8050e0000"/>
+</Link>
+<WhereClause mdsid="m00000005-01f4-0000-403a-52e600000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000006-01f4-0000-a2d4-111300000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000007-01f4-0000-d728-0ba700000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

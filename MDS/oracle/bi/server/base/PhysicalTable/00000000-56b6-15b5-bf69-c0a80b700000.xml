@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m00000000-56b6-15b5-bf69-c0a80b700000" name="DIM_HLTH_MEDHISTORY" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m00000001-56b6-15b5-bf69-c0a80b700000" name="AGE_AT_EVENT" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-56b6-15b5-bf69-c0a80b700000" name="AGE_RANGE" dataType="VARCHAR" precision="7" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000003-56b6-15b5-bf69-c0a80b700000" name="BEGIN_DATE" dataType="DATETIME" precision="7" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-56b6-15b5-bf69-c0a80b700000" name="EFFECTIVENESS" dataType="VARCHAR" precision="3500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000005-56b6-15b5-bf69-c0a80b700000" name="END_DATE" dataType="DATETIME" precision="3500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000006-56b6-15b5-bf69-c0a80b700000" name="EVENT_DATE" dataType="DATETIME" precision="3500" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000007-56b6-15b5-bf69-c0a80b700000" name="ID" dataType="DOUBLE" precision="10" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000008-56b6-15b5-bf69-c0a80b700000" name="NOTIF_LEVEL" dataType="INT" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000002-ef98-15b5-bf69-c0a80b700000" name="MEDICATION_NAME" dataType="VARCHAR" precision="72" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-ef98-15b5-bf69-c0a80b700000" name="MEDICATION_SUB_CATEGORY" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000000-f367-15b5-bf69-c0a80b700000" name="MEDICATION_CATEGORY_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-f367-15b5-bf69-c0a80b700000" name="MEDICATION_TYPE_TEXT" dataType="VARCHAR" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

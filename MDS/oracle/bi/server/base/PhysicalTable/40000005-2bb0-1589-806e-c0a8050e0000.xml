@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000005-2bb0-1589-806e-c0a8050e0000" name="DIM_CLIENT" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
+<PhysicalColumn mdsid="m40000035-2bb0-1589-806e-c0a8050e0000" name="FIRST_NAME" dataType="VARCHAR" precision="100" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000038-2bb0-1589-806e-c0a8050e0000" name="GENDER" dataType="VARCHAR" precision="1" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000040-2bb0-1589-806e-c0a8050e0000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000004a-2bb0-1589-806e-c0a8050e0000" name="LAST_NAME" dataType="VARCHAR" precision="100" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000076-2bb0-1589-806e-c0a8050e0000" name="RACE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000000-bd18-15ac-9e4d-c0a80b700000" name="ETHNICITY_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000002-bd18-15ac-9e4d-c0a80b700000" name="EYE_COLOR_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000004-bd18-15ac-9e4d-c0a80b700000" name="HAIR_COLOR_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000006-bd18-15ac-9e4d-c0a80b700000" name="RELIGION_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000000-be63-15ac-9e4d-c0a80b700000" name="LANGUAGE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000000-0ee4-15ae-9c58-c0a80b700000" name="INTK2PGM_ADMSN_INTRVL_DAY" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000000-194e-15ae-9c58-c0a80b700000" name="CITIZENSHIP_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-194e-15ae-9c58-c0a80b700000" name="COMMUNICATION_MODALITY_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-194e-15ae-9c58-c0a80b700000" name="ID_TYPE" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000008-194e-15ae-9c58-c0a80b700000" name="MOBILITY_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000a-194e-15ae-9c58-c0a80b700000" name="SUPERVISION_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000c-194e-15ae-9c58-c0a80b700000" name="WRITTEN_LANGUAGE_TEXT" dataType="VARCHAR" precision="500" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000000-19a5-15ae-9c58-c0a80b700000" name="STATUS" dataType="INT" precision="4" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000000-19ff-15ae-9c58-c0a80b700000" name="INDIVIDUAL_STATUS_TEXT" dataType="VARCHAR" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000000-6a6e-15ae-8f39-c0a80b700000" name="ID_TYPE_TEXT" dataType="VARCHAR" precision="116" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000000-b344-15ae-bb1f-c0a80b700000" name="BP_CITY" dataType="VARCHAR" precision="32" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000002-b344-15ae-bb1f-c0a80b700000" name="RA_CITY" dataType="VARCHAR" precision="32" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000000-063a-15af-bb1f-c0a80b700000" name="RA_COUNTRY" dataType="DOUBLE" precision="10" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-063a-15af-bb1f-c0a80b700000" name="RA_COUNTY" dataType="VARCHAR" precision="50" nullable="true" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-063a-15af-bb1f-c0a80b700000" name="RA_STATE" dataType="VARCHAR" precision="2" nullable="true" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

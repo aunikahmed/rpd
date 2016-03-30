@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m40000013-15b1-158c-8620-c0a834b20000" name="CLIENT_FACT" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000000-28c6-158a-8620-c0a834b20000.xml#m40000000-28c6-158a-8620-c0a834b20000">
+<PresentationColumn mdsid="m4000000d-15b1-158c-8620-c0a834b20000" name="AGE_RANGE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-28b9-158a-8620-c0a834b20000.xml#m00000004-28b9-158a-8620-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000000e-15b1-158c-8620-c0a834b20000" name="CLIENT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-28b9-158a-8620-c0a834b20000.xml#m00000005-28b9-158a-8620-c0a834b20000">
+</PresentationColumn>
+</PresentationTable>

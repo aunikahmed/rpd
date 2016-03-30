@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m0000000d-e7b7-159b-b79c-c0a834380000" name="Measures" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000009-e7b7-159b-b79c-c0a834380000.xml#m00000009-e7b7-159b-b79c-c0a834380000">
+<PresentationColumn mdsid="m00000000-e7b7-159b-b79c-c0a834380000" name="QUERY_COUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e6f9-159b-b79c-c0a834380000.xml#mc0000000-e71e-159b-b79c-c0a834380000">
+<Alias name="QUERY_TEXT"/>
+</PresentationColumn>
+<PresentationColumn mdsid="m00000002-e7b7-159b-b79c-c0a834380000" name="TOTAL_TIME_SEC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e6f9-159b-b79c-c0a834380000.xml#mc0000002-e71e-159b-b79c-c0a834380000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000001-cdbd-15a9-a970-c0a834b20000" name="DB_TIME_SEC" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e6f9-159b-b79c-c0a834380000.xml#m40000005-cd99-15a9-a970-c0a834b20000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000003-cdbd-15a9-a970-c0a834b20000" name="DB_QUERY_COUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e6f9-159b-b79c-c0a834380000.xml#m00000003-cdb0-15a9-a970-c0a834b20000">
+</PresentationColumn>
+</PresentationTable>

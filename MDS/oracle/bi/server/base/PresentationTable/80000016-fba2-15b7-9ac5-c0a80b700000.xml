@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="m80000016-fba2-15b7-9ac5-c0a80b700000" name="FACT_IMMUNIZATION_VACCINE" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000011-f769-15b4-9c44-c0a80b700000.xml#m40000011-f769-15b4-9c44-c0a80b700000">
+<Alias name="FACT_IMMUNIZATION_VACCINE_ALIAS"/>
+<PresentationColumn mdsid="m80000014-fba2-15b7-9ac5-c0a80b700000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000006-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000011-fba2-15b7-9ac5-c0a80b700000" name="AGE_AT_EVENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000003-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000013-fba2-15b7-9ac5-c0a80b700000" name="CLIENT_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000005-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000015-fba2-15b7-9ac5-c0a80b700000" name="IMMUNIZATION_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000007-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000b-fba2-15b7-9ac5-c0a80b700000" name="PROV_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000008-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000c-fba2-15b7-9ac5-c0a80b700000" name="SITE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000009-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000d-fba2-15b7-9ac5-c0a80b700000" name="TIME_KEY" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m4000000a-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000e-fba2-15b7-9ac5-c0a80b700000" name="UPDATE_COUNT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m4000000b-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000000f-fba2-15b7-9ac5-c0a80b700000" name="VACCINE_DATE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m4000000c-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000010-fba2-15b7-9ac5-c0a80b700000" name="VACCINE_ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m4000000d-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000000-fdd0-15b7-9ac5-c0a80b700000" name="AGE_RANGE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000004-fb98-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000000-fdd0-15b7-9ac5-c0a80b700000" name="AGE_RANGE_INT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m00000000-fdc0-15b7-9ac5-c0a80b700000">
+</PresentationColumn>
+</PresentationTable>

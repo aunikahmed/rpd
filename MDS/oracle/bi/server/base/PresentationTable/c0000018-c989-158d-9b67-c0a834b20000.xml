@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PresentationTable mdsid="mc0000018-c989-158d-9b67-c0a834b20000" name="GER_EVENT_OTHER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
+<PresentationColumn mdsid="mc0000001-c989-158d-9b67-c0a834b20000" name="AGGRESSOR_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000017e-8495-1589-8a27-c0a8050e0000.xml#mc0000182-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000002-c989-158d-9b67-c0a834b20000" name="EVENT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000017e-8495-1589-8a27-c0a8050e0000.xml#mc0000183-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000005-c989-158d-9b67-c0a834b20000" name="EVENT_ALTERCATION_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000017e-8495-1589-8a27-c0a8050e0000.xml#mc0000186-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000c-c989-158d-9b67-c0a834b20000" name="EVENT_LOCATION_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000017e-8495-1589-8a27-c0a8050e0000.xml#mc000018d-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000d-c989-158d-9b67-c0a834b20000" name="EVENT_OTHER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000017e-8495-1589-8a27-c0a8050e0000.xml#mc000018e-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000011-c989-158d-9b67-c0a834b20000" name="EVENT_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c000017e-8495-1589-8a27-c0a8050e0000.xml#mc0000192-8495-1589-8a27-c0a8050e0000">
+</PresentationColumn>
+</PresentationTable>

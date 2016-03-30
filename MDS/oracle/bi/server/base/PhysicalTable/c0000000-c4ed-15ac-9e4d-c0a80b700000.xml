@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="mc0000000-c4ed-15ac-9e4d-c0a80b700000" name="CLIENT_FACT_BY_AGE_ALIAS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m40000006-c4e0-15ac-9e4d-c0a80b700000">
+<PhysicalColumn mdsid="mc0000001-c4ed-15ac-9e4d-c0a80b700000" name="AGE" dataType="INT" precision="4" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m40000007-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000002-c4ed-15ac-9e4d-c0a80b700000" name="AGE_RANGE" dataType="VARCHAR" precision="8" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m40000008-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000003-c4ed-15ac-9e4d-c0a80b700000" name="CLIENT_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m40000009-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000004-c4ed-15ac-9e4d-c0a80b700000" name="PGM_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m4000000a-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000005-c4ed-15ac-9e4d-c0a80b700000" name="PROV_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m4000000b-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000000-15ef-15ae-9c58-c0a80b700000" name="DAY_DURATION_BY_PGM" dataType="INT" precision="6" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m40000000-15e0-15ae-9c58-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000000-89ea-15be-973b-c0a80b700000" name="OVERSIGHT_PROV_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m80000002-89c6-15be-973b-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="mc0000001-89ea-15be-973b-c0a80b700000" name="CLIENT_UNIQUE_ID" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m80000000-89c6-15be-973b-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000000-e01c-15be-973b-c0a80b700000" name="TIME_KEY" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000006-c4e0-15ac-9e4d-c0a80b700000.xml#m00000000-e019-15be-973b-c0a80b700000">
+</PhysicalColumn>
+<PhysicalKey mdsid="mc0000000-fb90-15b7-9ac5-c0a80b700000" name="CLIENT_FACT_BY_AGE_ALIAS_Key">
+<RefColumns>
+<RefColumn refId="mc0000000-fb90-15b7-9ac5-c0a80b700000-mc0000003-c4ed-15ac-9e4d-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000003-c4ed-15ac-9e4d-c0a80b700000"/>
+</RefColumns>
+</PhysicalKey>
+<PhysicalForeignKey mdsid="m40000000-c51c-15ac-9e4d-c0a80b700000" name="CLIENT_FACT_BY_AGE_ALIAS_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-2d90-1589-806e-c0a8050e0000.xml#m80000000-2de7-1589-806e-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m40000000-c51c-15ac-9e4d-c0a80b700000-mc0000005-c4ed-15ac-9e4d-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000005-c4ed-15ac-9e4d-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-c526-15ac-9e4d-c0a80b700000" name="CLIENT_FACT_BY_AGE_ALIAS_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2d61-1589-806e-c0a8050e0000.xml#m00000000-846e-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m00000000-c526-15ac-9e4d-c0a80b700000-mc0000003-c4ed-15ac-9e4d-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000003-c4ed-15ac-9e4d-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-b9b0-15ad-9e4d-c0a80b700000" name="CLIENT_FACT_BY_AGE_ALIAS_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m00000000-8471-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m80000000-b9b0-15ad-9e4d-c0a80b700000-mc0000004-c4ed-15ac-9e4d-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000004-c4ed-15ac-9e4d-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-8a04-15be-973b-c0a80b700000" name="CLIENT_FACT_BY_AGE_ALIAS_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-8d5d-15bc-973b-c0a80b700000.xml#m00000000-8d84-15bc-973b-c0a80b700000">
+<RefColumns>
+<RefColumn refId="m40000000-8a04-15be-973b-c0a80b700000-mc0000000-89ea-15be-973b-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#mc0000000-89ea-15be-973b-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-e510-15be-973b-c0a80b700000" name="CLIENT_FACT_BY_AGE_ALIAS_Foreign Key#4" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-c55c-15ac-9e4d-c0a80b700000.xml#m00000000-c570-15ac-9e4d-c0a80b700000">
+<RefColumns>
+<RefColumn refId="m00000000-e510-15be-973b-c0a80b700000-m80000000-e01c-15be-973b-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-c4ed-15ac-9e4d-c0a80b700000.xml#m80000000-e01c-15be-973b-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

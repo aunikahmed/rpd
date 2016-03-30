@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PhysicalTable mdsid="m40000000-c4e8-15ac-9e4d-c0a80b700000" name="CLIENT_COUNT_BY_PGM_FACT_ALIAS" iconIndex="90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e0-15ac-9e4d-c0a80b700000.xml#m40000000-c4e0-15ac-9e4d-c0a80b700000">
+<PhysicalColumn mdsid="m40000001-c4e8-15ac-9e4d-c0a80b700000" name="PERIOD_TYPE" dataType="VARCHAR" precision="2" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e0-15ac-9e4d-c0a80b700000.xml#m40000001-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000002-c4e8-15ac-9e4d-c0a80b700000" name="PGM_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e0-15ac-9e4d-c0a80b700000.xml#m40000002-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-c4e8-15ac-9e4d-c0a80b700000" name="PROV_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e0-15ac-9e4d-c0a80b700000.xml#m40000003-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-c4e8-15ac-9e4d-c0a80b700000" name="TIME_ID" dataType="DOUBLE" precision="10" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e0-15ac-9e4d-c0a80b700000.xml#m40000004-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-c4e8-15ac-9e4d-c0a80b700000" name="TOTAL_CLIENT" dataType="DOUBLE" precision="10" nullable="true" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e0-15ac-9e4d-c0a80b700000.xml#m40000005-c4e0-15ac-9e4d-c0a80b700000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m00000000-c54d-15ac-9e4d-c0a80b700000" name="CLIENT_COUNT_BY_PGM_FACT_ALIAS_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-2d90-1589-806e-c0a8050e0000.xml#m80000000-2de7-1589-806e-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m00000000-c54d-15ac-9e4d-c0a80b700000-m40000003-c4e8-15ac-9e4d-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000003-c4e8-15ac-9e4d-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-c56e-15ac-9e4d-c0a80b700000" name="CLIENT_COUNT_BY_PGM_FACT_ALIAS_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-c55c-15ac-9e4d-c0a80b700000.xml#m00000000-c570-15ac-9e4d-c0a80b700000">
+<RefColumns>
+<RefColumn refId="mc0000000-c56e-15ac-9e4d-c0a80b700000-m40000004-c4e8-15ac-9e4d-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000004-c4e8-15ac-9e4d-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-b40c-15ad-9e4d-c0a80b700000" name="CLIENT_COUNT_BY_PGM_FACT_ALIAS_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/40000000-2d76-1589-806e-c0a8050e0000.xml#m00000000-8471-1589-8a27-c0a8050e0000">
+<RefColumns>
+<RefColumn refId="m80000000-b40c-15ad-9e4d-c0a80b700000-m40000002-c4e8-15ac-9e4d-c0a80b700000" columnRef="/oracle/bi/server/base/PhysicalTable/40000000-c4e8-15ac-9e4d-c0a80b700000.xml#m40000002-c4e8-15ac-9e4d-c0a80b700000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

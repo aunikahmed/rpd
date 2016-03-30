@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LogicalTable mdsid="m80000065-0589-1590-9b67-c0a834b20000" name="ISP_QA_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/c0000000-057d-1590-9b67-c0a834b20000.xml#mc0000000-057d-1590-9b67-c0a834b20000">
+<LogicalColumn mdsid="m80000068-0589-1590-9b67-c0a834b20000" name="DESCRIPTION" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:135511447042654">
+<Expr mdsid="m00000001-01f4-0000-0f11-5c0f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."ISP_QA_DIM"."DESCRIPTION"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-0f11-5c0f00000000-m80000001-048d-1590-9b67-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-048d-1590-9b67-c0a834b20000.xml#m80000001-048d-1590-9b67-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m80000069-0589-1590-9b67-c0a834b20000" name="TYPE_ID" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:135521447042654">
+<Expr mdsid="m00000002-01f4-0000-da75-83fd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."ISP_QA_DIM"."TYPE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-da75-83fd00000000-m80000002-048d-1590-9b67-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-048d-1590-9b67-c0a834b20000.xml#m80000002-048d-1590-9b67-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m8000006a-0589-1590-9b67-c0a834b20000" name="TYPE_NAME" isWriteable="false">
+<AttrDefn mdsid="mError" name="AD_3900:135531447042654">
+<Expr mdsid="m00000003-01f4-0000-c258-27c100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["db05".""."DWADMIN"."ISP_QA_DIM"."TYPE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-c258-27c100000000-m80000003-048d-1590-9b67-c0a834b20000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-048d-1590-9b67-c0a834b20000.xml#m80000003-048d-1590-9b67-c0a834b20000"/>
+</ObjectRefList>
+</Expr>
+</AttrDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m8000006b-0589-1590-9b67-c0a834b20000" name="ISP_QA_DIM_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m8000006b-0589-1590-9b67-c0a834b20000-m80000069-0589-1590-9b67-c0a834b20000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000065-0589-1590-9b67-c0a834b20000.xml#m80000069-0589-1590-9b67-c0a834b20000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m80000065-0589-1590-9b67-c0a834b20000-m80000067-0589-1590-9b67-c0a834b20000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/80000067-0589-1590-9b67-c0a834b20000.xml#m80000067-0589-1590-9b67-c0a834b20000"/>
+</RefTableSources>
+</LogicalTable>
