@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="m00000001-077e-1590-9b67-c0a834b20000" name="OUTCOME_MEASURE_TAG_DIM" iconIndex="65" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c00000be-077d-1590-9b67-c0a834b20000.xml#mc00000be-077d-1590-9b67-c0a834b20000">
-<PresentationColumn mdsid="mc000009f-077d-1590-9b67-c0a834b20000" name="MEASURE_TYPE_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000029-0589-1590-9b67-c0a834b20000.xml#m8000002e-0589-1590-9b67-c0a834b20000">
-</PresentationColumn>
-<PresentationColumn mdsid="mc00000a2-077d-1590-9b67-c0a834b20000" name="TAG_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000029-0589-1590-9b67-c0a834b20000.xml#m80000031-0589-1590-9b67-c0a834b20000">
-</PresentationColumn>
-</PresentationTable>

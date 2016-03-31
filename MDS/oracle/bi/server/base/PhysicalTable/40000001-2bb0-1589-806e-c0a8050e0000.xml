@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PhysicalTable mdsid="m40000001-2bb0-1589-806e-c0a8050e0000" name="BRIDGE_CROSS_PROVIDER" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
-<PhysicalColumn mdsid="m40000002-2bb0-1589-806e-c0a8050e0000" name="CHILD_PROV_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
-</PhysicalColumn>
-<PhysicalColumn mdsid="m40000003-2bb0-1589-806e-c0a8050e0000" name="FACTOR" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
-</PhysicalColumn>
-<PhysicalColumn mdsid="m40000004-2bb0-1589-806e-c0a8050e0000" name="PARENT_PROV_ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
-</PhysicalColumn>
-</PhysicalTable>

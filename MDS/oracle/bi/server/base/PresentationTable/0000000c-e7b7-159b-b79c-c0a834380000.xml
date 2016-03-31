@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="m0000000c-e7b7-159b-b79c-c0a834380000" name="User" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000009-e7b7-159b-b79c-c0a834380000.xml#m00000009-e7b7-159b-b79c-c0a834380000">
-<PresentationColumn mdsid="m00000008-e7b7-159b-b79c-c0a834380000" name="USER_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-e705-159b-b79c-c0a834380000.xml#m00000004-e79e-159b-b79c-c0a834380000">
-</PresentationColumn>
-</PresentationTable>

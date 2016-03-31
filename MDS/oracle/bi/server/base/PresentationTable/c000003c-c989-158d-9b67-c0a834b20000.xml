@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="mc000003c-c989-158d-9b67-c0a834b20000" name="GER_FACT_ALIAS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
-<PresentationColumn mdsid="mc0000033-c989-158d-9b67-c0a834b20000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000233-8495-1589-8a27-c0a8050e0000.xml#mc000023e-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="mc000002c-c989-158d-9b67-c0a834b20000" name="AGE_RANGE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000233-8495-1589-8a27-c0a8050e0000.xml#mc0000237-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="mc0000031-c989-158d-9b67-c0a834b20000" name="EVENT_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000233-8495-1589-8a27-c0a8050e0000.xml#mc000023c-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-</PresentationTable>

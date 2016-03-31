@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="m40000040-c98a-158d-9b67-c0a834b20000" name="PROGRAM_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
-<PresentationColumn mdsid="m40000033-c98a-158d-9b67-c0a834b20000" name="PROGRAM_TYPE_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00003c2-8495-1589-8a27-c0a8050e0000.xml#mc00003d3-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m40000034-c98a-158d-9b67-c0a834b20000" name="PROGRAM_TYPE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00003c2-8495-1589-8a27-c0a8050e0000.xml#mc00003d4-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-</PresentationTable>

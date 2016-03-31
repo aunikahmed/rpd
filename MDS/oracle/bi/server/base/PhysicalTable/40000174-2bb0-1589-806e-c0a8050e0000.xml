@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PhysicalTable mdsid="m40000174-2bb0-1589-806e-c0a8050e0000" name="DIM_GER_RESTRAINT_BEHAVIOR" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000000-2bb0-1589-806e-c0a8050e0000.xml#m40000000-2bb0-1589-806e-c0a8050e0000">
-<PhysicalColumn mdsid="m4000017e-2bb0-1589-806e-c0a8050e0000" name="ID" dataType="DOUBLE" precision="22" nullable="true" specialType="none">
-</PhysicalColumn>
-<PhysicalColumn mdsid="m40000182-2bb0-1589-806e-c0a8050e0000" name="INJURY_RESTRAINT_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none">
-</PhysicalColumn>
-<PhysicalColumn mdsid="m40000197-2bb0-1589-806e-c0a8050e0000" name="STATUS_EMERGENCY_TEXT" dataType="VARCHAR" precision="3" nullable="true" specialType="none">
-</PhysicalColumn>
-</PhysicalTable>

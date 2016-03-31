@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="mc0000014-c98a-158d-9b67-c0a834b20000" name="RESTRAINT_OTHER_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
-<PresentationColumn mdsid="mc0000004-c98a-158d-9b67-c0a834b20000" name="LOCATION_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000207-8495-1589-8a27-c0a8050e0000.xml#mc0000215-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="mc000000a-c98a-158d-9b67-c0a834b20000" name="RESTRAINT_TYPE" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000207-8495-1589-8a27-c0a8050e0000.xml#mc000021b-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="mc000000b-c98a-158d-9b67-c0a834b20000" name="RESTRAINT_TYPE_OTHER" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c0000207-8495-1589-8a27-c0a8050e0000.xml#mc000021c-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-</PresentationTable>

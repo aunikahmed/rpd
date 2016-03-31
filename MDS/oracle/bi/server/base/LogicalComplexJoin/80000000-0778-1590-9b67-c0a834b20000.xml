@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<LogicalComplexJoin mdsid="m80000000-0778-1590-9b67-c0a834b20000" name="Relationship_2004:135971447042473" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="Inner" logicalTable1Ref="/oracle/bi/server/base/LogicalTable/80000029-0589-1590-9b67-c0a834b20000.xml#m80000029-0589-1590-9b67-c0a834b20000" multiplicity1="0..1" isAggregate1="false" logicalTable2Ref="/oracle/bi/server/base/LogicalTable/8000003c-0589-1590-9b67-c0a834b20000.xml#m8000003c-0589-1590-9b67-c0a834b20000" multiplicity2="0..n" isAggregate2="false">
-</LogicalComplexJoin>

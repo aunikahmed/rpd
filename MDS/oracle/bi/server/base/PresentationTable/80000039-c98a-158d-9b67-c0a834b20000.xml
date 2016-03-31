@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="m80000039-c98a-158d-9b67-c0a834b20000" name="PROVIDER_DIM" iconIndex="76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
-<PresentationColumn mdsid="m80000029-c98a-158d-9b67-c0a834b20000" name="NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00003ff-8495-1589-8a27-c0a8050e0000.xml#mc000041d-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m8000000d-c98a-158d-9b67-c0a834b20000" name="STATE_PROVIDER_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00003ff-8495-1589-8a27-c0a8050e0000.xml#m40000002-84c6-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m80000000-ce8d-15a6-b586-c0a834380000" name="STATUS" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00003ff-8495-1589-8a27-c0a8050e0000.xml#mc0000427-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-</PresentationTable>

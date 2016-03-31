@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<LogicalComplexJoin mdsid="m40000046-fb98-15b7-9ac5-c0a80b700000" name="RelationshipPROVIDER_DIMFACT_IMMUNIZATION_VACCINE_ALIAS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="Inner" logicalTable1Ref="/oracle/bi/server/base/LogicalTable/40000000-fb98-15b7-9ac5-c0a80b700000.xml#m40000000-fb98-15b7-9ac5-c0a80b700000" multiplicity1="n..n" isAggregate1="false" logicalTable2Ref="/oracle/bi/server/base/LogicalTable/c0000042-f73c-15b4-9c44-c0a80b700000.xml#mc0000042-f73c-15b4-9c44-c0a80b700000" multiplicity2="0..1" isAggregate2="false">
-</LogicalComplexJoin>

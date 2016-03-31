@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="m00000005-077e-1590-9b67-c0a834b20000" name="ISP_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/c00000be-077d-1590-9b67-c0a834b20000.xml#mc00000be-077d-1590-9b67-c0a834b20000">
-<PresentationColumn mdsid="m8000002d-077d-1590-9b67-c0a834b20000" name="PROGRAM_NAME" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000014-0588-1590-9b67-c0a834b20000.xml#mc0000015-0588-1590-9b67-c0a834b20000">
-</PresentationColumn>
-<PresentationColumn mdsid="m40000001-d79d-15a0-9175-c0a834380000" name="ISP_PGM_WEIGHT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000014-0588-1590-9b67-c0a834b20000.xml#m40000000-8d00-15a0-9175-c0a834380000">
-</PresentationColumn>
-<PresentationColumn mdsid="m00000000-d735-15a6-b586-c0a834380000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000014-0588-1590-9b67-c0a834b20000.xml#mc0000006-0588-1590-9b67-c0a834b20000">
-</PresentationColumn>
-</PresentationTable>

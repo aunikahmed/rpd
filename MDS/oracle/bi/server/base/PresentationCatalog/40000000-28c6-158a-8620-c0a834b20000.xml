@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationCatalog mdsid="m40000000-28c6-158a-8620-c0a834b20000" name="CLIENT_MODULE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/80000000-28b5-158a-8620-c0a834b20000.xml#m80000000-28b5-158a-8620-c0a834b20000">
-<RefTables>
-<RefPresentationTable refId="m40000000-28c6-158a-8620-c0a834b20000-m40000006-28ce-158a-8620-c0a834b20000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000006-28ce-158a-8620-c0a834b20000.xml#m40000006-28ce-158a-8620-c0a834b20000"/>
-<RefPresentationTable refId="m40000000-28c6-158a-8620-c0a834b20000-m0000000c-29b1-158a-8620-c0a834b20000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000000c-29b1-158a-8620-c0a834b20000.xml#m0000000c-29b1-158a-8620-c0a834b20000"/>
-<RefPresentationTable refId="m40000000-28c6-158a-8620-c0a834b20000-m40000013-15b1-158c-8620-c0a834b20000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000013-15b1-158c-8620-c0a834b20000.xml#m40000013-15b1-158c-8620-c0a834b20000"/>
-</RefTables>
-</PresentationCatalog>

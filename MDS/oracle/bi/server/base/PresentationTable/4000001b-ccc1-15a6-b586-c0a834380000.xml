@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<PresentationTable mdsid="m4000001b-ccc1-15a6-b586-c0a834380000" name="GER_EVENT_DEATH_DIM" iconIndex="70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-c97f-158d-9b67-c0a834b20000.xml#m80000000-c97f-158d-9b67-c0a834b20000">
-<PresentationColumn mdsid="m40000009-ccc1-15a6-b586-c0a834380000" name="CAUSE_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00000be-8495-1589-8a27-c0a8050e0000.xml#mc00000c8-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m4000000e-ccc1-15a6-b586-c0a834380000" name="ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00000be-8495-1589-8a27-c0a8050e0000.xml#mc00000cd-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-<PresentationColumn mdsid="m40000012-ccc1-15a6-b586-c0a834380000" name="LOCATION_TEXT" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/c00000be-8495-1589-8a27-c0a8050e0000.xml#mc00000d1-8495-1589-8a27-c0a8050e0000">
-</PresentationColumn>
-</PresentationTable>
